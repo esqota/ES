@@ -41,6 +41,7 @@ def doitnow():
         #os.system('echo "You have {0} bytes free"'.format(yyy))
         
         file= Path(r'{0}'.format(vidnameoutar[k])).stat().st_size
+        file = file * 2.5
         #fz = file / (3 * 1024)
         #os.system('echo "File size {0} bytes"'.format(file))
         os.system('rm -f qouta.txt')
@@ -80,6 +81,7 @@ def doitnow():
         #os.system('echo "You have {0} bytes free"'.format(yyy))
         
         file= Path(r'{0}'.format(vidnameoutar[k])).stat().st_size
+        file = file * 2.5
         #fz = file / (3 * 1024)
         #os.system('echo "File size {0} bytes"'.format(file))
         os.system('rm -f qouta.txt')
@@ -151,7 +153,7 @@ if x == 1:
         if in_start <= end_of:
             vidnamear.append(str(in_start)+".mp4")
             vidsub.append(str(in_start)+".ass")
-            vidnameoutar.append("[DisCinema.com]_Hunter_X_Hunter_S"+ s_season +"_EP"+str(in_start)+".mp4")
+            vidnameoutar.append("[DisCinema.com]_One_Piece_S"+ s_season +"_EP"+str(in_start)+".mp4")
        
         clear()
         in_start+=1
