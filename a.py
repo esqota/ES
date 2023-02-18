@@ -151,7 +151,7 @@ if x == 1:
         #bd = input("Of VID {0}: Video Number of EP :\n".format(i+1))
         #vidnameoutar.append("[DisCinema.com]_AOT_EP"+bd+".mp4")
         if in_start <= end_of:
-            vidnamear.append(str(in_start)+".mp4")
+            vidnamear.append(str(in_start)+".ts")
             vidsub.append(str(in_start)+".ass")
             vidnameoutar.append("[DisCinema.com]_One_Piece_S"+ s_season +"_EP"+str(in_start)+".mp4")
        
