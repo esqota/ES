@@ -29,7 +29,7 @@ def doitnow():
      os.system('ffmpeg -i {0} -i logo.png  -filter_complex "overlay=5:5:format=auto,format=yuv420p,ass={1}" -filter:a "volume=2" {2}'.format(vidnamear[k],vidsub[k],vidnameoutar[k]))
      os.system('rm -f {0} && rm -f {1}'.format(vidsub[k],vidnamear[k]))
      try:
-        os.system('megadf --config a.megarc | tee qouta.txt')
+        os.system('megatools df --config a.megarc | tee qouta.txt')
         f = open("qouta.txt", "r")
         x = f.readline()
         y = f.readline()
@@ -46,7 +46,7 @@ def doitnow():
         #os.system('echo "File size {0} bytes"'.format(file))
         os.system('rm -f qouta.txt')
         if file < yyy:
-            os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
+            os.system('megatools put {0} --config a.megarc'.format(vidnameoutar[k]))
             #kont b7awel any lw al mlf mtrf34 arf3o 3n try2 lw el upload mktb4 uploading wkda
             #with open('example.txt') as f:
                 #if 'Uploaded' in f.read():
@@ -65,11 +65,11 @@ def doitnow():
             usern = "Username = discinema_" + str(x_gdeda) + "@getnada.com"
             os.system('rm -f a.megarc')
             os.system('printf "[Login]\n{1}\n{2}" > {0}'.format("a.megarc",usern,z))
-            os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
+            os.system('megatools put {0} --config a.megarc'.format(vidnameoutar[k]))
     
      except:
         os.system('echo "Error on command, Retrying the Whole Process"')
-        os.system('megadf --config a.megarc | tee qouta.txt')
+        os.system('megatools df --config a.megarc | tee qouta.txt')
         f = open("qouta.txt", "r")
         x = f.readline()
         y = f.readline()
@@ -86,7 +86,7 @@ def doitnow():
         #os.system('echo "File size {0} bytes"'.format(file))
         os.system('rm -f qouta.txt')
         if file < yyy:
-            os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
+            os.system('megatools put {0} --config a.megarc'.format(vidnameoutar[k]))
             #kont b7awel any lw al mlf mtrf34 arf3o 3n try2 lw el upload mktb4 uploading wkda
             #with open('example.txt') as f:
                 #if 'Uploaded' in f.read():
@@ -105,7 +105,7 @@ def doitnow():
             usern = "Username = discinema_" + str(x_gdeda) + "@getnada.com"
             os.system('rm -f a.megarc')
             os.system('printf "[Login]\n{1}\n{2}" > {0}'.format("a.megarc",usern,z))
-            os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
+            os.system('megatools put {0} --config a.megarc'.format(vidnameoutar[k]))
     
      
      os.system('rm -f {0}'.format(vidnameoutar[k]))
