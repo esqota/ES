@@ -119,7 +119,13 @@ def doitnow():
     
      
      os.system('rm -f {0}'.format(vidnameoutar[k]))
-     MsgVideos.append('{0}    OK\n'.format(vidnameoutar[k]))
+     emailSentOn = ""
+     f_e = open("a.megarc", "r")
+     x_e = f_e.readline()
+     y_e = f_e.readline()
+     z_e = f_e.readline()
+     emailSentOn = y_e.split(" = ")[1]
+     MsgVideos.append('{0} on {1} ✅\n'.format(vidnameoutar[k],emailSentOn))
      #os.system('touch {0}.py'.format(vidnameoutar[k]))
      #os.system('printf "import sys\nimport os\nsys.path.append(os.path.abspath(\'/usr/local/lib/python2.7/dist-packages\'))\nfrom mega import Mega\nmega = Mega()\nm = mega.login(\'discinema_1@getnada.com\',\'Lord7418529630\')\nfile = m.upload(\'{0}\')\nos.system(\'rm {0}.py && rm {0} && rm {1} && rm {2}\')" > {0}.py'.format(vidnameoutar[k],vidsub[k],vidnamear[k]))
      #os.system('xfce4-terminal -x sh -c "python3 {0}.py; bash"'.format(vidnameoutar[k]))
