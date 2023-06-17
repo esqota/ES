@@ -1,6 +1,9 @@
 from array import *
 from pathlib import Path
 import os
+import urllib.parse
+import requests
+
 #import sys
 #sys.path.append(os.path.abspath("/usr/local/lib/python2.7/dist-packages"))
 #from mega import Mega
@@ -21,6 +24,13 @@ except IOError:
 #func
 def clear():
     os.system('reset')
+
+def sendMessage(message):
+    bot_token = "5953645919:AAEU9QcdoE799ImWqaT6m5ezDgEYNQqt0E0"
+    chat_id = "916444149"
+    encoded_message = urllib.parse.quote_plus(message)
+    url = f"https://api.telegram.org/bot{bot_token}/sendMessage?chat_id={chat_id}&parse_mode=Markdown&text={encoded_message}"
+    requests.get(url)
 
 def doitnow():
     k = 0
@@ -109,6 +119,7 @@ def doitnow():
     
      
      os.system('rm -f {0}'.format(vidnameoutar[k]))
+     MsgVideos.append('{0}    OK\n'.format(vidnameoutar[k]))
      #os.system('touch {0}.py'.format(vidnameoutar[k]))
      #os.system('printf "import sys\nimport os\nsys.path.append(os.path.abspath(\'/usr/local/lib/python2.7/dist-packages\'))\nfrom mega import Mega\nmega = Mega()\nm = mega.login(\'discinema_1@getnada.com\',\'Lord7418529630\')\nfile = m.upload(\'{0}\')\nos.system(\'rm {0}.py && rm {0} && rm {1} && rm {2}\')" > {0}.py'.format(vidnameoutar[k],vidsub[k],vidnamear[k]))
      #os.system('xfce4-terminal -x sh -c "python3 {0}.py; bash"'.format(vidnameoutar[k]))
@@ -132,6 +143,7 @@ if x == 1:
     vidnamear = []
     vidsub = []
     vidnameoutar = []
+    MsgVideos = []
     clear()
     s_season = input("Season: \n")
     kam = input("How Many Videos You Will Finish Today :\n")
@@ -160,6 +172,12 @@ if x == 1:
         i+=1
         
     doitnow()
+    #send message
+    mymsg = ""
+    for x in MsgVideos:
+        mymsg += x
+    mymsg += "Uploaded & Done Successfully 👍"
+    sendMessage(mymsg)
 else:
     os.system('echo "closing Will install it manaully"')
     os.system('sudo apt-get --reinstall install ttf-mscorefonts-installer')
