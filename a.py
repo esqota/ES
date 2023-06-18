@@ -45,6 +45,7 @@ def doitnow():
         x = f.readline()
         y = f.readline()
         z = f.readline()
+        f.close()
         qo = z.split(" ")
         yc = qo[2]
         yyy = int(yc)
@@ -68,6 +69,7 @@ def doitnow():
             x = f.readline()
             y = f.readline()
             z = f.readline()
+            f.close()
             yy = y.split("=")
             xx = yy[1].split("@")
             xxx = xx[0].split("_")
@@ -85,6 +87,7 @@ def doitnow():
         x = f.readline()
         y = f.readline()
         z = f.readline()
+        f.close()
         qo = z.split(" ")
         yc = qo[2]
         yyy = int(yc)
@@ -108,6 +111,7 @@ def doitnow():
             x = f.readline()
             y = f.readline()
             z = f.readline()
+            f.close()
             yy = y.split("=")
             xx = yy[1].split("@")
             xxx = xx[0].split("_")
@@ -117,6 +121,7 @@ def doitnow():
             os.system('rm -f a.megarc')
             os.system('printf "[Login]\n{1}\n{2}" > {0}'.format("a.megarc",usern,z))
             os.system('megatools put {0} --config a.megarc'.format(vidnameoutar[k]))
+            
     
      
      os.system('rm -f {0}'.format(vidnameoutar[k]))
@@ -125,8 +130,9 @@ def doitnow():
      x_e = f_e.readline()
      y_e = f_e.readline()
      z_e = f_e.readline()
+     f_e.close()
      emailSentOn = y_e.split(" = ")[1]
-     MsgVideos.append('{0} on {1} ✅\n'.format(vidnameoutar[k],emailSentOn))
+     MsgVideos.append('{0} on {1} ✅\n'.format(str(vidnameoutar[k]),str(emailSentOn)))
      #os.system('touch {0}.py'.format(vidnameoutar[k]))
      #os.system('printf "import sys\nimport os\nsys.path.append(os.path.abspath(\'/usr/local/lib/python2.7/dist-packages\'))\nfrom mega import Mega\nmega = Mega()\nm = mega.login(\'discinema_1@getnada.com\',\'Lord7418529630\')\nfile = m.upload(\'{0}\')\nos.system(\'rm {0}.py && rm {0} && rm {1} && rm {2}\')" > {0}.py'.format(vidnameoutar[k],vidsub[k],vidnamear[k]))
      #os.system('xfce4-terminal -x sh -c "python3 {0}.py; bash"'.format(vidnameoutar[k]))
@@ -178,12 +184,18 @@ if x == 1:
         i+=1
         
     doitnow()
-    #send message
-    mymsg = ""
-    for x in MsgVideos:
-        mymsg += x
-    mymsg += "Uploaded & Done Successfully 👍"
-    sendMessage(mymsg)
 else:
     os.system('echo "closing Will install it manaully"')
     os.system('sudo apt-get --reinstall install ttf-mscorefonts-installer')
+
+
+
+#send message
+mymsg = ""
+rkm = 0
+for x in MsgVideos:
+    mymsg += x
+    rkm = rkm + 1
+mymsg += "Total {0} Uploaded & Done Successfully 👍".format(str(rkm))
+sendMessage(mymsg)
+os.system('echo "Message MUST BE SENT"')
