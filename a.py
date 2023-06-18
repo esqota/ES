@@ -4,6 +4,7 @@ import os
 import urllib.parse
 import requests
 
+MsgVideos = []
 #import sys
 #sys.path.append(os.path.abspath("/usr/local/lib/python2.7/dist-packages"))
 #from mega import Mega
@@ -149,7 +150,6 @@ if x == 1:
     vidnamear = []
     vidsub = []
     vidnameoutar = []
-    MsgVideos = []
     clear()
     s_season = input("Season: \n")
     kam = input("How Many Videos You Will Finish Today :\n")
