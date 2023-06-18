@@ -26,13 +26,6 @@ except IOError:
 def clear():
     os.system('reset')
 
-def sendMessage(message):
-    bot_token = "5953645919:AAEU9QcdoE799ImWqaT6m5ezDgEYNQqt0E0"
-    chat_id = "916444149"
-    encoded_message = urllib.parse.quote_plus(message)
-    url = f"https://api.telegram.org/bot{bot_token}/sendMessage?chat_id={chat_id}&parse_mode=Markdown&text={encoded_message}"
-    requests.get(url)
-
 def doitnow():
     k = 0
     while k < howmany:
@@ -146,7 +139,7 @@ def uploadit():
      os.system('python3 {0}.py'.format(vidnameoutar[k]))
      os.system('echo "{0} Uploaded Successfully."'.format(vidnameoutar[k]))
      k+=1 
-    
+ 
 
 #uploadit()
 ###############################################################################
@@ -188,14 +181,23 @@ else:
     os.system('echo "closing Will install it manaully"')
     os.system('sudo apt-get --reinstall install ttf-mscorefonts-installer')
 
-
-
+def sendMessage(message):
+    bot_token = "5953645919:AAEU9QcdoE799ImWqaT6m5ezDgEYNQqt0E0"
+    chat_id = "916444149"
+    encoded_message = urllib.parse.quote_plus(message)
+    url = f"https://api.telegram.org/bot{bot_token}/sendMessage?chat_id={chat_id}&parse_mode=Markdown&text={encoded_message}"
+    requests.get(url)   
+    
 #send message
 mymsg = ""
 rkm = 0
 for x in MsgVideos:
     mymsg += x
+    print(x)
     rkm = rkm + 1
 mymsg += "Total {0} Uploaded & Done Successfully 👍".format(str(rkm))
+
+print(mymsg)
 sendMessage(mymsg)
+sendMessage("endofmessage")
 os.system('echo "Message MUST BE SENT"')
