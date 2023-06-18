@@ -185,7 +185,7 @@ def sendMessage(message):
     bot_token = "5953645919:AAEU9QcdoE799ImWqaT6m5ezDgEYNQqt0E0"
     chat_id = "916444149"
     encoded_message = urllib.parse.quote_plus(message)
-    url = f"https://api.telegram.org/bot{bot_token}/sendMessage?chat_id={chat_id}&parse_mode=Markdown&text={encoded_message}"
+    url = f"https://api.telegram.org/bot{bot_token}/sendMessage?chat_id={chat_id}&text={encoded_message}"
     requests.get(url)   
     
 #send message
