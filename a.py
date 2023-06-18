@@ -199,5 +199,4 @@ mymsg += "Total {0} Uploaded & Done Successfully 👍".format(str(rkm))
 
 print(mymsg)
 sendMessage(mymsg)
-sendMessage("endofmessage")
 os.system('echo "Message MUST BE SENT"')
