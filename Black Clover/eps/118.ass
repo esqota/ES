@@ -1,0 +1,514 @@
+[Script Info]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Times New Roman,24,&H0014B6D3,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Adobe Arabic,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: OP_ED,Adobe Arabic,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: main,Times New Roman,24,&H005C00B6,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: SignA,Times New Roman,26,&H005C00B6,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0040,0040,0018,0
+Style: italics,Times New Roman,24,&H00FC00C6,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Times New Roman,24,&H00E59511,&H000000FF,&H00400000,&H00400000,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: top,Adobe Arabic,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italicstop,Adobe Arabic,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Adobe Arabic,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,-1,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Adobe Arabic,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Adobe Arabic,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,-1,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Adobe Arabic,38,&H00E4E2F0,&H000000FF,&H64070805,&H000D1728,-1,-1,0,0,100,100,0,0,1,0,0,8,0030,0030,0100,1
+Style: sign_34238_338_Page_2_The_Boys_,Adobe Arabic,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,-1,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Adobe Arabic,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Adobe Arabic,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_138_1_Black_Clover_is_,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_1785_19_Vice_Captain_of_,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0070,0275,0090,1
+Style: sign_5516_38_King_of_the_Clov,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0105,1
+Style: sign_6102_39_Vetto_the_Despai,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0108,0362,0129,1
+Style: sign_6102_40_Fana_the_Hateful,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0081,0076,1
+Style: sign_6730_49_Captain_of_the_A,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_7061_51_A_Team_Coral_Pea,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_7198_131_Nean,Adobe Arabic,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0336,0254,0134,1
+Style: sign_7198_132_Common_Realm,Adobe Arabic,24,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0450,0190,1
+Style: sign_7198_133_Kikka,Adobe Arabic,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0265,0315,0260,1
+Style: sign_9194_75_Yay____Yay____,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_10111_106_Venue_for_the_Ro,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_11720_132_Bell_,Adobe Arabic,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0235,0030,0070,1
+Style: sign_12339_133_Finnes_Calmreich,Adobe Arabic,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_13177_157_1st_Class_Interm,Adobe Arabic,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0015,0424,0080,1
+Style: sign_13177_158_4th_Class_Senior,Adobe Arabic,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0230,0250,0080,1
+Style: sign_13177_159_1st_Class_Interm,Adobe Arabic,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0415,0030,0080,1
+Style: sign_14555_151_4_years_ago,Adobe Arabic,28,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0085,1
+Style: sign_15736_152_Sandler,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0060,0505,0205,1
+Style: sign_15736_154_Solid,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0135,0455,0225,1
+Style: sign_15736_155_O_Team,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0110,0440,0060,1
+Style: sign_15736_156_En___Noelle___Yu,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0070,0205,1
+Style: sign_16031_175_The_Eye_of_the_M,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_16031_176_Sally,Adobe Arabic,26,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0350,0075,1
+Style: sign_16031_177_Rades,Adobe Arabic,26,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0335,0030,0075,1
+Style: sign_17323_210_Also_got_in_thro,Adobe Arabic,24,&H000B0B0B,&H000000FF,&H00FFFFFF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0159,0156,0020,1
+Style: sign_18699_183_Luck_s_High_Mana,Adobe Arabic,31,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0020,1
+Style: sign_18752_184_High_Mana_Detect,Adobe Arabic,34,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0195,0030,0130,1
+Style: sign_19376_197_Fate_Manipulatio,Times New Roman,16,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0000,0134,0020,1
+Style: sign_19376_198_Fate_Manipulatio,Times New Roman,30,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0121,0000,0020,1
+Style: sign_19376_197_F_a_t_e___M_a_n_,Times New Roman,19,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0492,0130,0020,1
+Style: sign_19376_201_A_b_s_o_l_u_t_e_,Times New Roman,19,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0100,0477,0018,1
+Style: sign_21447_269_Mage_Attendant_t,Adobe Arabic,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0310,0095,1
+Style: sign_21447_270_1st_Class_Interm,Adobe Arabic,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0355,0030,0095,1
+Style: sign_22029_222_Wimpy,Adobe Arabic,30,&H00171816,&H000000FF,&H00EEEDED,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0040,0030,0040,1
+Style: sign_22078_223_Carefree,Adobe Arabic,30,&H00171816,&H000000FF,&H00EEEDED,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,6,0040,0030,0020,1
+Style: sign_24182_226_Member_of_the_Pu,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_25640_274_Group_1_En_Ringa,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0040,0030,0125,1
+Style: sign_32950_385_Halt_,Adobe Arabic,30,&H00332E32,&H000000FF,&H00DADEE2,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0360,0030,0020,1
+Style: sign_32992_374_gLaMoUr_WoRlD,Verdana,30,&H00A787ED,&H000000FF,&H001A1E4B,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0084,0404,0250,1
+Style: sign_33089_334_Bulls,Adobe Arabic,30,&H0007A0E4,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,6,0030,0030,0020,1
+Style: sign_33137_335_Hello__we_re_Gor,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33018_294_Sa,Adobe Arabic,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0045,0030,0275,1
+Style: sign_33018_295_Rii,Adobe Arabic,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,1,0480,0030,0130,1
+Style: sign_33090_345_Part_1_,Adobe Arabic,35,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0262,0262,0275,1
+Style: sign_33126_298_Shi,Adobe Arabic,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0275,1
+Style: sign_33126_299_Rii,Adobe Arabic,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,1,0465,0030,0130,1
+Style: sign_33236_349_Luck,Trebuchet MS,30,&H00000100,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_33248_350_Ahaha_,Verdana,30,&H00161622,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0030,0030,0020,1
+Style: sign_33332_352_Rucksack,Verdana,30,&H00161622,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0030,0030,0020,1
+Style: sign_33427_257_Weaken__Naeru_,Adobe Arabic,30,&H00000100,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_13025_94_That_s_amazing,Adobe Arabic,21,&H001F4D76,&H000000FF,&H32D7E0FE,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,2,0,1,0030,0030,0100,1
+Style: sign_13025_95_That_s_amazing,Adobe Arabic,21,&H004FAD56,&H000000FF,&H32D7E0FE,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,2,0,9,0030,0030,0020,1
+Style: sign_7798_63_High_,Adobe Arabic,22,&H00F6F4FD,&H000000FF,&H322300BB,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_7798_64_Devil,Adobe Arabic,27,&H00E4E6E1,&H000000FF,&H32000500,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_7798_67_Royals,Adobe Arabic,28,&H00EDF6F1,&H000000FF,&H320B0330,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_7839_71_Magic_,Adobe Arabic,29,&H00FCFCFC,&H000000FF,&H32000003,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_7876_72_Sol,Adobe Arabic,24,&H00E4E6E1,&H000000FF,&H32000500,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0085,0025,1
+Style: sign_7876_73_Commoners,Adobe Arabic,28,&H00EDF6F1,&H000000FF,&H321B0780,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0510,0064,1
+Style: sign_7880_74_Magna,Adobe Arabic,29,&H00E4E6E1,&H000000FF,&H32000500,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0135,0030,0155,1
+Style: sign_7880_75_Kid,Adobe Arabic,29,&H00E4E6E1,&H000000FF,&H32000500,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0202,0065,1
+Style: sign_7880_76_Bwah_,Verdana,30,&H00EAF9F7,&H000000FF,&H320D1B1B,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_7880_77_Low,Adobe Arabic,23,&H00F6F4FD,&H000000FF,&H32168FD6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0355,0030,0135,1
+Style: sign_16413_171_First_Wizard_Kin,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0100,1
+Style: sign_19021_200_500_Years_Ago,Adobe Arabic,37,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0220,1
+Style: Flashback_Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00500000,&H00500000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Narration,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: main - subtitles,Adobe Arabic,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0058,0
+Style: sign_4194_20_C_Team_The_Coral,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_9718_95_Langris,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0130,0435,0220,1
+Style: sign_9718_98_Leopold,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0345,0215,0205,1
+Style: sign_9718_99_Finral,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0455,0125,0220,1
+Style: sign_9718_100_Hamon,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0530,0040,0205,1
+Style: sign_9784_85_Xerx,Adobe Arabic,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0113,0461,0254,1
+Style: sign_9784_86_Mimosa,Adobe Arabic,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0072,0460,0186,1
+Style: sign_9784_87_Asta,Adobe Arabic,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0114,0464,0113,1
+Style: sign_9784_88_Kirsch,Adobe Arabic,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0442,0106,0282,1
+Style: sign_9784_89_Sol,Adobe Arabic,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0423,0175,0217,1
+Style: sign_9784_90_Magna,Adobe Arabic,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0424,0122,0132,1
+Style: sign_10224_102_Sol___Kirsch___M,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0375,0070,0205,1
+Style: sign_10224_104_Cesc___Adrian___,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0055,0385,0205,1
+Style: sign_10224_103_C_Team,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0425,0135,0060,1
+Style: sign_10224_105_D_Team,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0130,0420,0060,1
+Style: sign_10482_94_Green_Praying_Ma,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_10657_102_Roland,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0050,0520,0205,1
+Style: sign_10657_103_Nix,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0235,0370,0205,1
+Style: sign_10657_104_Wainsley,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0105,0445,0225,1
+Style: sign_11341_108_Four_Years_Ago,Adobe Arabic,28,&H00FDFDFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0220,1
+Style: sign_11640_111_Sol_Marron,Adobe Arabic,30,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_15736_157_P_Team,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0435,0115,0060,1
+Style: sign_16988_180_Cherry_Blossom_M,Adobe Arabic,22,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0140,1
+Style: sign_17843_174_Sekke___Langris_,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0040,0370,0175,1
+Style: sign_17843_176_Xerx___Asta___Mi,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0370,0065,0175,1
+Style: sign_22199_178_Rill___Reuben___,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0065,0370,0155,1
+Style: sign_22199_180_Klaus__Luck__Pul,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0388,0070,0155,1
+Style: sign_28900_402_Buzz__Buzz__Buzz,Adobe Arabic,20,&H00F4F8EF,&H000000FF,&H32474433,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0455,0110,0020,1
+Style: sign_28966_288_The_Blue_Rose_Kn,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32241D26,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_29050_405_Boop_boop_be_laa,Adobe Arabic,20,&H006244A9,&H000000FF,&H0034236A,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0415,0070,0020,1
+Style: sign_29261_411_La,Adobe Arabic,30,&H00F3F4E2,&H000000FF,&H32A9D171,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0150,0465,0305,1
+Style: sign_29406_414_Laan_,Adobe Arabic,24,&H0055119C,&H000000FF,&H322E236A,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0085,0495,0020,1
+Style: sign_29885_315_C_Team_The_Coral,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32424340,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_30215_308_Rob,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0040,0560,0200,1
+Style: sign_30215_309_Francis,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0105,0465,0220,1
+Style: sign_30215_310_Winston,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0210,0345,0200,1
+Style: sign_30215_312_Puli,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0210,0200,1
+Style: sign_30215_313_Klaus,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0460,0125,0220,1
+Style: sign_30215_314_Luck,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0550,0040,0200,1
+Style: sign_30215_315_K_Team,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0415,0135,0060,1
+Style: sign_32825_278_Zara,Adobe Arabic,26,&H00010403,&H000000FF,&H00E1E8E7,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0143,0439,0133,1
+Style: sign_32825_279_Zora,Adobe Arabic,30,&H00010101,&H000000FF,&H00F8F6FB,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0355,0030,0020,1
+Style: sign_32916_371_Mana,Adobe Arabic,22,&H00262525,&H000000FF,&H00E9EDE1,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0040,0155,1
+Style: sign_32971_372_Mana,Adobe Arabic,30,&H00262525,&H000000FF,&H00E9EDE1,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_32987_284_Zara,Adobe Arabic,30,&H00020202,&H000000FF,&H00FEFCFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0070,0020,1
+Style: sign_32987_285_Zora,Adobe Arabic,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0070,0150,1
+Style: sign_33024_375_Serious_,Adobe Arabic,22,&H00262525,&H000000FF,&H00E9EDE1,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0265,0030,0180,1
+Style: sign_33147_287_Oldest_Brother_A,Adobe Arabic,10,&H001A00C6,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_33285_329_I_ll____kill_him,Adobe Arabic,22,&H00161B0C,&H000000FF,&H00FBFFCE,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33322_360_Bathroom_,Adobe Arabic,28,&H007F9096,&H000000FF,&H32233248,&H0087C2CE,-1,0,0,0,100,100,0,0,1,2,3,2,0110,0030,0270,1
+Style: sign_33398_297_Festival,Adobe Arabic,16,&H005D5A57,&H000000FF,&H00F7F5F6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0074,1
+Style: sign_33402_326_Noms_,Adobe Arabic,20,&H00393B47,&H000000FF,&H32D1C9CF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0080,1
+Style: sign_33436_362_Bathroom,Adobe Arabic,10,&H0045403D,&H000000FF,&H3256ADB3,&H0087C2CE,-1,0,0,0,100,100,0,-8,1,3,0,2,0210,0260,0315,1
+Style: sign_33586_380_Wizard_King_Gran,Adobe Arabic,12,&H00F8FFFF,&H000000FF,&H002C353A,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,0030,0030,0020,1
+Style: sign_33615_332_Noms,Adobe Arabic,28,&H001D1C1F,&H000000FF,&H3261919A,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33774_286_That_thing_s_fil,Adobe Arabic,26,&H003A4C4A,&H000000FF,&H00F4FCFA,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0415,0160,1
+Style: sign_1785_20_Vice_Captain_of_,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0365,0030,0090,1
+Style: sign_16832_220_Diamond_Kingdom,Times New Roman,20,&H000A1A2A,&H000000FF,&H00BFCBD6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0428,0030,0020,1
+Style: sign_17072_224_Diamond_Kingdom_,Times New Roman,20,&H00FEFBFD,&H000000FF,&H001A1716,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0038,0038,0105,1
+Style: sign_5669_78_Diamond_Kingdom_,Adobe Arabic,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0419,0030,0020,1
+Style: sign_5669_76_Heart_Kingdom_,Adobe Arabic,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0030,0030,0020,1
+Style: sign_5669_77_Spade_Kingdom,Adobe Arabic,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0220,0265,0050,1
+Style: sign_5669_78_Forsaken_Realm,Adobe Arabic,16,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0240,0275,0110,1
+Style: sign_5669_79_Common_Realm,Adobe Arabic,16,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0240,0270,0155,1
+Style: sign_5669_80_Noble_Realm,Adobe Arabic,16,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0260,0280,0255,1
+Style: sign_5669_81_Rayaka,Adobe Arabic,12,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0385,0210,0085,1
+Style: sign_5669_82_Nean,Adobe Arabic,12,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0375,0235,0150,1
+Style: sign_5669_83_Kikka,Adobe Arabic,12,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0350,0255,0190,1
+Style: sign_5669_84_Raquey,Adobe Arabic,12,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0377,0219,0268,1
+Style: sign_5669_85_Kiten,Adobe Arabic,12,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0450,0160,0310,1
+Style: sign_5713_89_Diamond_Kingdom_,Adobe Arabic,14,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0419,0030,0020,1
+Style: sign_5713_87_Heart_Kingdom_,Adobe Arabic,14,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0300,0452,0050,1
+Style: sign_5713_88_Spade_Kingdom,Adobe Arabic,14,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0399,0133,0043,1
+Style: sign_5713_89_Forsaken_Realm,Adobe Arabic,10,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0402,0126,0081,1
+Style: sign_5713_90_Common_Realm,Adobe Arabic,10,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0419,0143,0111,1
+Style: sign_5713_91_Noble_Realm,Adobe Arabic,10,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0430,0145,0170,1
+Style: sign_5713_92_Rayaka,Adobe Arabic,8,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0505,0095,0070,1
+Style: sign_5713_93_Nean,Adobe Arabic,8,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0505,0115,0105,1
+Style: sign_5713_94_Kikka,Adobe Arabic,8,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0485,0130,0135,1
+Style: sign_5713_95_Raquey,Adobe Arabic,8,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0505,0105,0185,1
+Style: sign_5713_96_Kiten,Adobe Arabic,8,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0555,0065,0215,1
+Style: sign_5964_101_Nean_Common_Real,Adobe Arabic,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_6168_105_Heart_Kingdom,Adobe Arabic,28,&H00F6F7FB,&H000000FF,&H00B1B9BD,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0030,0030,0020,1
+Style: sign_6499_112_Spade_Kingdom,Adobe Arabic,20,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0257,0229,0045,1
+Style: sign_6499_113_Diamond_Kingdom,Adobe Arabic,20,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0030,0030,0020,1
+Style: sign_6499_113_Spade_Kingdom,Times New Roman,20,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0265,0221,0114,1
+Style: sign_6449_110_Forsaken_Realm,Adobe Arabic,16,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0265,0215,0115,1
+Style: sign_6449_111_Common_Realm,Adobe Arabic,16,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0265,0220,0175,1
+Style: sign_6449_112_Noble_Realm,Adobe Arabic,16,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0290,0230,0095,1
+Style: sign_6449_113_Rayaka,Adobe Arabic,14,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0440,0140,0085,1
+Style: sign_6449_114_Nean,Adobe Arabic,14,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0430,0175,0165,1
+Style: sign_6449_115_Kikka,Adobe Arabic,14,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0402,0196,0217,1
+Style: sign_6449_116_Raquey,Adobe Arabic,14,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0435,0145,0075,1
+Style: sign_18183_236_Silver_Eagles_Sq,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0335,0025,0097,1
+Style: sign_18183_237_Crimson_Lion_Kin,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0006,0352,0096,1
+Style: sign_18183_233_Crimson_Lion_Kin,Adobe Arabic,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0335,0030,0100,1
+Style: sign_18183_232_Silver_Eagles_Sq,Adobe Arabic,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0035,0385,0100,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:04:10.00,0:04:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:08:10.00,0:08:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:10:10.00,0:10:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:12:10.00,0:12:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:14:10.00,0:14:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:16:10.00,0:16:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:19:10.00,0:19:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:21:10.00,0:21:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:23:10.00,0:23:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:00:04.00,0:00:14.00,SignA,E,0000,0000,0000,,{\move(320,360,320,80)}{\fad(1000,1000)}{\blur2\pos(310,153)}نتمني لكم مشاهدة ممتعة \N DisCinema.com موقع 
+Dialogue: 0,0:21:15.00,0:21:25.00,SignA,,0000,0000,0000,,{\move(320,360,320,80)}{\fad(1000,1000)}{\blur2\pos(310,153)}زورو موقعنا لمذيد من الحلقات و الانمي و المسلسلات الاخري \N ♥DisCinema.com موقع♥
+
+Dialogue: 0,0:00:17.22,0:00:18.94,main,Guy,0000,0000,0000,,!ما هذا الوحش؟
+Dialogue: 0,0:00:18.94,0:00:20.37,main,Guy 2,0000,0000,0000,,!ا-اهربوا
+Dialogue: 0,0:00:20.37,0:00:22.08,main,Lady,0000,0000,0000,,!إلى أين سنهرب؟
+Dialogue: 0,0:00:37.17,0:00:38.87,main,Lady,0000,0000,0000,,...يا إلهي
+Dialogue: 0,0:00:38.87,0:00:40.97,main,Old man,0000,0000,0000,,.إنّها نهاية العالم
+Dialogue: 0,0:00:42.73,0:00:47.48,italics,Nar,0000,0000,0000,,.بدا الأمر وكأنّ البشريّة ستُدَمَّر على يد الشّياطين
+Dialogue: 0,0:00:50.98,0:00:52.99,italics,Nar,0000,0000,0000,,...لكنّ ساحرًا واحدًا
+Dialogue: 0,0:00:54.77,0:00:56.01,flashback,Licht,0000,0000,0000,,...لوميير
+Dialogue: 0,0:00:56.79,0:01:00.37,flashback,Licht,0000,0000,0000,,!اقتلني أرجوك
+Dialogue: 0,0:01:01.62,0:01:03.37,italics,Lumiere,0000,0000,0000,,...فهمت أخيرًا
+Dialogue: 0,0:01:03.37,0:01:06.21,italics,Lumiere,0000,0000,0000,,...لمَ وُلدت بهذا الكمّ الهائل
+Dialogue: 0,0:01:06.86,0:01:07.98,italics,Lumiere,0000,0000,0000,,.من السحر
+Dialogue: 0,0:01:09.27,0:01:10.50,italics,Lumiere,0000,0000,0000,,...لن أدعك
+Dialogue: 0,0:01:11.09,0:01:12.96,italics,Lumiere,0000,0000,0000,,!تصبح قاتلًا
+Dialogue: 0,0:02:42.07,0:02:46.70,Ep Title,Sign,0000,0000,0000,,لقاء عبر الزمان والمكان
+Dialogue: 0,0:03:02.62,0:03:03.78,main,Guy,0000,0000,0000,,...هذا
+Dialogue: 0,0:03:03.78,0:03:04.89,main,,0000,0000,0000,,!الأمير
+Dialogue: 0,0:03:04.89,0:03:06.50,main,Guy,0000,0000,0000,,!الأمير لوميير
+Dialogue: 0,0:03:42.45,0:03:45.42,italics,Secré,0000,0000,0000,,استعملوا أداةً سحرية صنعتها
+Dialogue: 0,0:03:45.89,0:03:48.65,italics,Secré,0000,0000,0000,,...لسرقة سحر الإلف
+Dialogue: 0,0:03:49.97,0:03:53.21,italics,Secré,0000,0000,0000,,.كان يُفترض أن تُستعمل كي نتمكن من مشاركة السحر
+Dialogue: 0,0:03:54.01,0:03:57.42,italics,Secré,0000,0000,0000,,...أيها الأمير... تيتيا-ساما... ما الذي
+Dialogue: 0,0:03:57.42,0:03:59.21,italics,Secré,0000,0000,0000,,أما زال هناك شيء يمكنني فعله؟
+Dialogue: 0,0:04:25.18,0:04:28.21,main,Devil,0000,0000,0000,,ما الذي كنت تحاول فعله بالضبط؟
+Dialogue: 0,0:04:28.21,0:04:30.18,main,Devil,0000,0000,0000,,.يا للإزعاج
+Dialogue: 0,0:04:30.86,0:04:35.92,main,Devil,0000,0000,0000,,أما كان من الأفضل لك أن تعطيني جسدك ذاك؟
+Dialogue: 0,0:04:36.54,0:04:39.37,main,Devil,0000,0000,0000,,،لو أني أخذت جسدك
+Dialogue: 0,0:04:39.37,0:04:42.92,main,Devil,0000,0000,0000,,.لكان سحر النور ذاك من دون فائدة تمامًا
+Dialogue: 0,0:04:42.92,0:04:45.43,main,Devil,0000,0000,0000,,...لكن على هذا الحال
+Dialogue: 0,0:04:46.43,0:04:49.85,main,Devil,0000,0000,0000,,!سيختفي كلّ شيء
+Dialogue: 0,0:04:55.09,0:04:57.60,italics,Lumiere,0000,0000,0000,,.أحجار السحر تضخّم سحره
+Dialogue: 0,0:04:57.60,0:04:59.50,italics,Lumiere,0000,0000,0000,,...حتّى وإن كنت قادرًا على إيقافه، فإنّ المملكة سـ
+Dialogue: 0,0:04:59.50,0:05:02.12,italics,Lumiere,0000,0000,0000,,هل يمكنني إيقافه حتّى؟
+Dialogue: 0,0:05:02.12,0:05:03.94,main,Secré,0000,0000,0000,,!أيها الأمير
+Dialogue: 0,0:05:05.75,0:05:09.45,main,Secré,0000,0000,0000,,!أداتنا السحرية التي صنعناها من أجل المساواة والسلام
+Dialogue: 0,0:05:09.45,0:05:11.13,main,Lumiere,0000,0000,0000,,!بالطبع
+Dialogue: 0,0:05:19.22,0:05:20.98,main,Lumiere,0000,0000,0000,,...سأستعمل أداة السحر التي صنعناها
+Dialogue: 0,0:05:21.93,0:05:23.46,main,Lumiere,0000,0000,0000,,!وأمتصّ سحره
+Dialogue: 0,0:05:24.97,0:05:25.97,main,Secré,0000,0000,0000,,هل نجح الأمر؟
+Dialogue: 0,0:05:33.53,0:05:37.23,italics,Lumiere,0000,0000,0000,,!كما ظننت... من المستحيل أن تمتص كلّ السحر
+Dialogue: 0,0:05:41.47,0:05:42.89,main,Secré,0000,0000,0000,,...لقد توقف
+Dialogue: 0,0:05:42.89,0:05:44.99,main,Secré,0000,0000,0000,,.يبدو أنّ المانا السلبية تهمد
+Dialogue: 0,0:05:45.55,0:05:47.25,main,Licht,0000,0000,0000,,...لومـ...يير
+Dialogue: 0,0:05:52.83,0:05:54.15,flashback,Licht,0000,0000,0000,,...لوميير
+Dialogue: 0,0:05:54.15,0:05:58.45,flashback,Licht,0000,0000,0000,,.سأتزوج تيتيا قريبًا وأصبح أخًا لك
+Dialogue: 0,0:05:59.54,0:06:02.50,flashback,Licht,0000,0000,0000,,.أنا واثق أنّ هناك بشرًا سيحتقرون ذلك
+Dialogue: 0,0:06:03.62,0:06:04.87,flashback,Lumiere,0000,0000,0000,,.معك حق
+Dialogue: 0,0:06:05.47,0:06:08.01,flashback,Lumiere,0000,0000,0000,,...لكن معك
+Dialogue: 0,0:06:09.14,0:06:11.94,flashback,Lumiere,0000,0000,0000,,.سأتمكن من صنع عالم مسالم تعمّه المساواة
+Dialogue: 0,0:06:12.53,0:06:13.64,flashback,Lumiere,0000,0000,0000,,.أعتقد ذلك حقًّا
+Dialogue: 0,0:06:15.33,0:06:17.91,flashback,Licht,0000,0000,0000,,.أنا أيضًا أعتقد ذلك
+Dialogue: 0,0:06:18.83,0:06:20.38,flashback,Licht,0000,0000,0000,,...أنا واثق
+Dialogue: 0,0:06:21.39,0:06:22.55,flashback,Lumiere,0000,0000,0000,,.أنّ القدر جمعنا
+Dialogue: 0,0:06:25.41,0:06:26.69,main,Licht,0000,0000,0000,,.الآن
+Dialogue: 0,0:06:27.53,0:06:29.09,main,Licht,0000,0000,0000,,...أسرع
+Dialogue: 0,0:06:30.74,0:06:31.71,main,Lumiere,0000,0000,0000,,...ليخت
+Dialogue: 0,0:06:33.26,0:06:35.55,flashback,Licht,0000,0000,0000,,.أنت المستقبل الذي آمنا به
+Dialogue: 0,0:06:36.18,0:06:38.02,flashback,Licht,0000,0000,0000,,.أنت الأمل
+Dialogue: 0,0:06:38.61,0:06:41.18,main,Lumiere,0000,0000,0000,,!سوف... أوقفك
+Dialogue: 0,0:07:30.45,0:07:32.65,main,Guy,0000,0000,0000,,!لقد هزم ذلك الوحش
+Dialogue: 0,0:07:32.65,0:07:36.45,main,Guy,0000,0000,0000,,!أنقذ الأمير مملكتنا
+Dialogue: 0,0:07:36.45,0:07:39.23,main,Guy,0000,0000,0000,,!إنّه منقذنا
+Dialogue: 0,0:08:00.66,0:08:03.01,main,Devil,0000,0000,0000,,،تمكنت من منعي من الانبعاث في جسده
+Dialogue: 0,0:08:03.01,0:08:04.73,main,Devil,0000,0000,0000,,.لكنّ ذلك كان عرضًا مسلّيًّا جدًّا
+Dialogue: 0,0:08:05.17,0:08:09.77,main,Devil,0000,0000,0000,,.أظنني سآخذ كتاب تعاويذه فقط في الوقت الراهن
+Dialogue: 0,0:08:09.77,0:08:10.94,main,Secré,0000,0000,0000,,!توقف
+Dialogue: 0,0:08:12.70,0:08:15.76,main,Secré,0000,0000,0000,,!لن أدعك تأخذ كتاب ليخت
+Dialogue: 0,0:08:16.33,0:08:17.51,main,Devil,0000,0000,0000,,...أحجار السحر
+Dialogue: 0,0:08:19.37,0:08:22.20,main,Devil,0000,0000,0000,,رأيت نهاية ذلك الإلف، صحيح؟
+Dialogue: 0,0:08:22.20,0:08:25.29,main,Devil,0000,0000,0000,,،إن حاول إنسان مثلك لا تحبه المانا استعمالها
+Dialogue: 0,0:08:25.29,0:08:26.69,main,Devil,0000,0000,0000,,فلن تتمكني من الحفاظ
+Dialogue: 0,0:08:26.69,0:08:29.54,main,Devil,0000,0000,0000,,على هيئتك حتّى وإن حاول \N.استعمال تعويذة صغيرة تافهة
+Dialogue: 0,0:08:30.23,0:08:34.53,italics,Secré,0000,0000,0000,,.لا يهمني ذلك. سأستعمل أحجار السحر لزيادة سحري
+Dialogue: 0,0:08:35.23,0:08:38.28,main,Secré,0000,0000,0000,,!سحر الختم: السجن الأبدي
+Dialogue: 0,0:08:39.79,0:08:45.29,main,Devil,0000,0000,0000,,سحر الحجز؟
+Dialogue: 0,0:08:47.71,0:08:51.62,italics,Devil,0000,0000,0000,,.هذه الفتاة لا تكترث لآثار استعمال السحر المحظور
+Dialogue: 0,0:08:52.13,0:08:54.85,italics,Devil,0000,0000,0000,,،ختمها مزعج نوعًا ما
+Dialogue: 0,0:08:54.85,0:08:57.64,italics,Devil,0000,0000,0000,,.لكني سأتمكن من استعمال الانبعاث بأحجار السحر
+Dialogue: 0,0:08:57.64,0:08:58.80,italics,Devil,0000,0000,0000,,...في تلك الحالة
+Dialogue: 0,0:08:59.61,0:09:00.81,main,Devil,0000,0000,0000,,.تعالي
+Dialogue: 0,0:09:01.63,0:09:02.56,main,Secré,0000,0000,0000,,ماذا؟
+Dialogue: 0,0:09:03.73,0:09:08.55,main,Devil,0000,0000,0000,,المزيد من اليأس والمأساة \N.للروح التي تملك الورقة الرباعية
+Dialogue: 0,0:09:08.55,0:09:10.89,main,Devil,0000,0000,0000,,.لكن أظنني سأزرع البذور من أجله
+Dialogue: 0,0:09:11.57,0:09:15.32,main,Devil,0000,0000,0000,,.السحر المحظور: نواد نيبيش
+Dialogue: 0,0:09:22.09,0:09:25.97,main,Devil,0000,0000,0000,,.سأحرص على العمل بروية وحذر أكبر في المرة القادمة
+Dialogue: 0,0:09:25.97,0:09:29.08,main,Devil,0000,0000,0000,,.في زمن لا وجود لكما فيه
+Dialogue: 0,0:09:37.06,0:09:38.18,main,Lumiere,0000,0000,0000,,!سيكري
+Dialogue: 0,0:09:38.62,0:09:39.85,main,Lumiere,0000,0000,0000,,هل أنت بخير؟
+Dialogue: 0,0:09:40.41,0:09:41.72,main,Secré,0000,0000,0000,,!سموّ الأمير
+Dialogue: 0,0:09:41.72,0:09:45.10,main,Lumiere,0000,0000,0000,,.تمكنت إذًا من ختم الشيطان
+Dialogue: 0,0:09:45.71,0:09:49.77,main,Secré,0000,0000,0000,,لكنّ الختم الذي تمكنت من \N..وضعه على الشيطان سوف
+Dialogue: 0,0:09:51.11,0:09:52.86,main,Secré,0000,0000,0000,,!سموّ الأمير
+Dialogue: 0,0:09:53.77,0:09:55.36,main,Secré,0000,0000,0000,,...لا
+Dialogue: 0,0:09:56.22,0:09:57.87,main,Lumiere,0000,0000,0000,,.لا بأس
+Dialogue: 0,0:09:58.43,0:10:01.67,main,Lumiere,0000,0000,0000,,.تمكنت من الحفاظ على وعدي لليخت
+Dialogue: 0,0:10:02.31,0:10:03.37,main,Lumiere,0000,0000,0000,,...لذا
+Dialogue: 0,0:10:08.25,0:10:12.38,main,Secré,0000,0000,0000,,.أيّها الأمير، سأستعمل أحجار السحر لختمك
+Dialogue: 0,0:10:13.07,0:10:17.79,main,Secré,0000,0000,0000,,.لن يكون كاملًا على الأرجح، لكنه سيتمكن من إبقائك حيًّا
+Dialogue: 0,0:10:18.63,0:10:20.38,main,Secré,0000,0000,0000,,،إن انكسر ختم الشيطان
+Dialogue: 0,0:10:20.38,0:10:24.12,main,Secré,0000,0000,0000,,.فسيُؤخذ المستقبل الذي سعينا إليه منّا
+Dialogue: 0,0:10:24.12,0:10:28.49,main,Lumiere,0000,0000,0000,,...لا يا سيكري. إن استعملت المزيد من السحر المحظور
+Dialogue: 0,0:10:28.49,0:10:30.15,main,Lumiere,0000,0000,0000,,.فستفقدين إنسانيتك
+Dialogue: 0,0:10:30.54,0:10:33.35,main,Secré,0000,0000,0000,,.لا يمكنني أن أدعك تموت هنا أيّها الأمير
+Dialogue: 0,0:10:33.85,0:10:38.02,main,Secré,0000,0000,0000,,.فكما قال ليخت، أنت أملنا للمستقبل
+Dialogue: 0,0:10:45.18,0:10:48.04,sign_12339_133_Finnes_Calmreich,Sign,0000,0000,0000,,{\blur3}بعد بضعة سنوات
+Dialogue: 0,0:10:53.27,0:10:57.30,italics,Secré,0000,0000,0000,,،بدأ الأمير سباته الطويل في هيئة تمثال
+Dialogue: 0,0:10:58.30,0:11:01.77,italics,Secré,0000,0000,0000,,.ولسبب ما، تحولت إلى طائر
+Dialogue: 0,0:11:02.71,0:11:06.56,flashbackitalics,Secré,0000,0000,0000,,...نجوت؟ لكن في هذه الهيئة
+Dialogue: 0,0:11:07.23,0:11:09.66,flashbackitalics,Secré,0000,0000,0000,,.سأحتاج مساعدة سحرة المستقبل
+Dialogue: 0,0:11:14.35,0:11:18.56,italics,Secré,0000,0000,0000,,،طُردت قبل 500 سنة من العالم الطبيعي
+Dialogue: 0,0:11:18.56,0:11:21.64,italics,Secré,0000,0000,0000,,،وبدأت الاستعداد لليوم الذي سينكسر فيه ختم الشيطان
+Dialogue: 0,0:11:21.64,0:11:24.95,italics,Secré,0000,0000,0000,,.بينما أحرس كتاب تعاويذ ليخت الخماسي
+Dialogue: 0,0:11:24.95,0:11:28.95,italics,Secré,0000,0000,0000,,...والشخص الذي انتهى به المطاف بذلك الكتاب
+Dialogue: 0,0:11:28.95,0:11:31.89,italics,Secré,0000,0000,0000,,.كان طفلًا وُلِد من دون سحر
+Dialogue: 0,0:11:32.54,0:11:34.75,italics,Secré,0000,0000,0000,,،كانت هناك إشارة على بدء الأمور بالتحرك
+Dialogue: 0,0:11:34.75,0:11:36.67,italics,Secré,0000,0000,0000,,.لكن بمجرد بدء العجلة بالدوران، تقدمت بسرعة
+Dialogue: 0,0:11:36.67,0:11:39.42,italics,Secré,0000,0000,0000,,.وأخيرًا وصل ذلك اليوم
+Dialogue: 0,0:11:39.94,0:11:43.93,italics,Secré,0000,0000,0000,,!سننهي هذا القتال الطويل اليوم
+Dialogue: 0,0:11:47.18,0:11:50.02,main,Asta,0000,0000,0000,,!ها أنت ذا أيها الوغد المريب
+Dialogue: 0,0:11:50.02,0:11:54.99,main,Devil,0000,0000,0000,,.عجبًا، عجبًا... لم أتوقع أنك ستلغي هيئة الإلف الأسود
+Dialogue: 0,0:11:54.99,0:11:58.36,main,Devil,0000,0000,0000,,.لكني لست مهتمًّا بالدمى التي انتهيت من اللعب بها
+Dialogue: 0,0:11:58.36,0:12:00.02,italics,Devil,0000,0000,0000,,إلغاء السحر هذا
+Dialogue: 0,0:12:00.02,0:12:03.97,italics,Devil,0000,0000,0000,,الذي تمكّن من إلغاء هذه التعويذة \N...التي تتعطّش لحياة أيّ شخص تلمسه
+Dialogue: 0,0:12:03.97,0:12:06.78,italics,Devil,0000,0000,0000,,.إنّه مزعج أكثر مما تخيلت
+Dialogue: 0,0:12:13.54,0:12:16.00,main,Lumiere,0000,0000,0000,,!مضت 500 سنة عن آخر مرة التقينا فيها أيها الشيطان
+Dialogue: 0,0:12:16.43,0:12:20.90,main,Devil,0000,0000,0000,,.لا أصدّق! لم أتوقع أن ألتقي بكما أيضًا
+Dialogue: 0,0:12:31.46,0:12:33.71,main,Asta,0000,0000,0000,,...مهلًا، يونو، هل ذاك
+Dialogue: 0,0:12:33.71,0:12:34.90,main,Yuno,0000,0000,0000,,...أجل
+Dialogue: 0,0:12:34.90,0:12:38.40,main,Asta,0000,0000,0000,,إمبراطور السحر الأول الأسطوري؟
+Dialogue: 0,0:12:41.41,0:12:42.82,main,Asta,0000,0000,0000,,!هل أنت حقيقي؟
+Dialogue: 0,0:12:42.82,0:12:46.73,main,Asta,0000,0000,0000,,!لكن مهلًا، يمكنك التحرك؟ مهلًا، ما الذي يجري بالضبط؟
+Dialogue: 0,0:12:45.69,0:12:47.24,top,Yuno,0000,0000,0000,,.اهدأ يا أستا
+Dialogue: 0,0:12:47.24,0:12:48.99,main,Yuno,0000,0000,0000,,.هذا ليس الوقت المناسب لذلك
+Dialogue: 0,0:12:48.99,0:12:50.83,main,Patlicht,0000,0000,0000,,!ماذا؟
+Dialogue: 0,0:12:51.21,0:12:52.61,main,Lumiere,0000,0000,0000,,من هم؟
+Dialogue: 0,0:12:52.61,0:12:55.01,main,Secré,0000,0000,0000,,،إلف تمّ إحياؤه بالسحر المحظور
+Dialogue: 0,0:12:55.01,0:12:57.86,main,Secré,0000,0000,0000,,وفارسا سحر من هذا العصر ساعدا
+Dialogue: 0,0:12:57.86,0:13:00.30,main,Secré,0000,0000,0000,,.في جمع أحجار السحر وحماية المملكة
+Dialogue: 0,0:13:01.70,0:13:04.47,italics,Asta,0000,0000,0000,,.الكي الخاص بتلك الفتاة مألوف نوعًا ما
+Dialogue: 0,0:13:04.47,0:13:07.06,main,Secré,0000,0000,0000,,.علينا مساعدة ليخت أوّلًا أيها الأمير
+Dialogue: 0,0:13:11.93,0:13:17.41,main,Secré,0000,0000,0000,,.أظنّه انبعث بروحه سليمةً بسبب التعويذة المحظورة
+Dialogue: 0,0:13:17.41,0:13:21.55,main,Secré,0000,0000,0000,,.روحه هنا بالتأكيد، لكنه لم يستفق بالكامل
+Dialogue: 0,0:13:21.55,0:13:24.74,main,Lumiere,0000,0000,0000,,ليخت... هل ستتمكنين من إيقاظه؟
+Dialogue: 0,0:13:25.58,0:13:26.86,main,Secré,0000,0000,0000,,.دع الأمر لي
+Dialogue: 0,0:13:28.17,0:13:32.87,italics,Secré,0000,0000,0000,,.كان بإمكان سحري فتح وإغلاق الأشياء فقط ذات مرة
+Dialogue: 0,0:13:32.87,0:13:35.37,italics,Secré,0000,0000,0000,,،لكن بعد قضاء الوقت مع الأمير
+Dialogue: 0,0:13:35.37,0:13:37.64,italics,Secré,0000,0000,0000,,.بدأ يتطور أثناء سعينا وراء المزيد من الفرص
+Dialogue: 0,0:13:38.35,0:13:42.88,italics,Secré,0000,0000,0000,,.كان الأمير عبقريًّا في اكتشاف الإمكانيات الأفضل لسحري
+Dialogue: 0,0:13:42.88,0:13:47.13,italics,Secré,0000,0000,0000,,يمكن لسحر الختم خاصتي \N!في وضعه الحالي إطلاق أيّ ختم
+Dialogue: 0,0:13:54.23,0:13:55.10,main,Lumiere,0000,0000,0000,,...ليخت
+Dialogue: 0,0:14:03.13,0:14:04.37,main,Licht,0000,0000,0000,,يمكنني أن أقول أخيرًا
+Dialogue: 0,0:14:04.37,0:14:08.07,main,Licht,0000,0000,0000,,.ما لم أستطع قوله في ذلك اليوم
+Dialogue: 0,0:14:08.90,0:14:11.22,main,Licht,0000,0000,0000,,.شكرًا لك يا لوميير
+Dialogue: 0,0:14:17.21,0:14:20.25,main,Devil,0000,0000,0000,,.من الجيد أنّك وصلت في الوقت المناسب الآن
+Dialogue: 0,0:14:20.25,0:14:23.88,main,Devil,0000,0000,0000,,.كان وداعكما مؤسفًا قبل 500 سنة
+Dialogue: 0,0:14:23.88,0:14:27.88,main,Devil,0000,0000,0000,,.وهذه المرة، سأتخلّص منكما معًا
+Dialogue: 0,0:14:30.38,0:14:31.64,main,Patlicht,0000,0000,0000,,...ليخت
+Dialogue: 0,0:14:31.95,0:14:37.36,main,Licht,0000,0000,0000,,.باتري، رأيت كل شيء بداخل سبات روحي العميق
+Dialogue: 0,0:14:37.36,0:14:39.64,main,Patlicht,0000,0000,0000,,...ليخت، أنا
+Dialogue: 0,0:14:40.42,0:14:44.94,main,Licht,0000,0000,0000,,.خسرنا قبل 500 سنة أمام مخطط هذا الشيطان
+Dialogue: 0,0:14:45.37,0:14:47.19,main,Licht,0000,0000,0000,,،عندما كنت غارقًا في اليأس
+Dialogue: 0,0:14:47.19,0:14:50.04,main,Licht,0000,0000,0000,,الشخص الذي منعني من أذية المزيد من الأبرياء
+Dialogue: 0,0:14:50.04,0:14:53.37,main,Licht,0000,0000,0000,,والتسبب في المزيد من اليأس
+Dialogue: 0,0:14:53.37,0:14:54.95,main,Licht,0000,0000,0000,,.كان لوميير
+Dialogue: 0,0:14:56.01,0:14:57.70,main,Licht,0000,0000,0000,,،بغض النظر عن طريقة الأمر
+Dialogue: 0,0:14:57.70,0:15:01.97,main,Licht,0000,0000,0000,,.يبدو أنّ أحدًا أتى لإيقافك أيضًا
+Dialogue: 0,0:15:03.19,0:15:07.48,main,Licht,0000,0000,0000,,باتري، مع أنّك اعتقدت أنّ النصل \N،الذي حملته كان من أجل العدالة
+Dialogue: 0,0:15:07.48,0:15:12.01,main,Licht,0000,0000,0000,,.إلّا أنّه بالنسبة لمن ضُربوا به كان جريمة لا تُغتفر
+Dialogue: 0,0:15:13.65,0:15:16.67,main,Licht,0000,0000,0000,,،حتّى وإن لم يكن بالإمكان مسامحتك
+Dialogue: 0,0:15:16.67,0:15:18.71,main,Licht,0000,0000,0000,,...فدعني أقول لك هذا
+Dialogue: 0,0:15:20.83,0:15:23.31,main,Licht,0000,0000,0000,,.أعلم أنّك بذلت جهدك
+Dialogue: 0,0:15:24.74,0:15:25.90,main,Patlicht,0000,0000,0000,,...ليخت-سان
+Dialogue: 0,0:15:28.06,0:15:30.11,main,Licht,0000,0000,0000,,ما يمكننا فعله الآن
+Dialogue: 0,0:15:30.93,0:15:32.81,main,Licht,0000,0000,0000,,هو قتال المأساة التالي
+Dialogue: 0,0:15:32.81,0:15:35.37,main,Licht,0000,0000,0000,,التي على وشك الحدوث دون \N.أن ندع أخطاءنا تكسر أرواحنا
+Dialogue: 0,0:15:36.39,0:15:40.29,main,Licht,0000,0000,0000,,.فلنضع حدًّا لسنواتنا الخمسمئة أخيرًا
+Dialogue: 0,0:15:40.29,0:15:41.66,main,Devil,0000,0000,0000,,.هذا صحيح
+Dialogue: 0,0:15:41.66,0:15:45.39,main,Devil,0000,0000,0000,,.سأغمر مشاعركم السخيفة وسينتهي الأمر
+Dialogue: 0,0:15:47.17,0:15:49.42,main,Lumiere,0000,0000,0000,,...سحر النور: منطقة المانا
+Dialogue: 0,0:15:49.42,0:15:50.92,main,Lumiere,0000,0000,0000,,.قنديل أفيور غلوريا
+Dialogue: 0,0:15:50.92,0:15:54.18,main,Licht,0000,0000,0000,,.سحر السيوف: أصل هيجان الوميض
+Dialogue: 0,0:16:06.89,0:16:11.53,italics,Devil,0000,0000,0000,,.تمكّنا من العصف بسحري الذي يلتهم سحر هذا العالم
+Dialogue: 0,0:16:11.53,0:16:13.86,italics,Devil,0000,0000,0000,,،الشخص الذي استعمل أكثر تعويذة محظورة
+Dialogue: 0,0:16:13.86,0:16:16.24,italics,Devil,0000,0000,0000,,...والشخص الذي امتص كلّ سحره
+Dialogue: 0,0:16:16.24,0:16:20.22,italics,Devil,0000,0000,0000,,.هذا يعني أنّهما تأثرا بذلك العالم
+Dialogue: 0,0:16:28.49,0:16:29.59,italics,Devil,0000,0000,0000,,!إنّهما سريعان
+Dialogue: 0,0:16:34.21,0:16:36.51,main,Asta,0000,0000,0000,,...مـ-مذهل
+Dialogue: 0,0:16:43.46,0:16:46.31,italics,Lumiere,0000,0000,0000,,...إن استمرت هجماتنا على هذه السرعة والقوة
+Dialogue: 0,0:16:46.31,0:16:48.94,italics,Licht,0000,0000,0000,,.فلن يتمكن من الرد بسحر روح الكلمة خاصته
+Dialogue: 0,0:16:56.36,0:16:57.78,main,Asta,0000,0000,0000,,!لقد نجحا
+Dialogue: 0,0:16:57.78,0:17:00.03,main,Devil,0000,0000,0000,,!دوف نوترا إيدّي
+Dialogue: 0,0:17:07.65,0:17:08.50,main,Secré,0000,0000,0000,,!أيها الأمير
+Dialogue: 0,0:17:08.50,0:17:09.54,main,Licht,0000,0000,0000,,!لوميير
+Dialogue: 0,0:17:09.54,0:17:11.88,italics,Licht,0000,0000,0000,,.ذلك الرمح... إنّه يهوّر التعاويذ
+Dialogue: 0,0:17:11.88,0:17:15.97,main,Devil,0000,0000,0000,,.أحسنتما بقدرتكما على مهاجمتي بهذا القدر
+Dialogue: 0,0:17:15.97,0:17:19.14,main,Devil,0000,0000,0000,,،لكن مهما كان مدى قوتيكما
+Dialogue: 0,0:17:19.14,0:17:23.31,main,Devil,0000,0000,0000,,!لن تتمكنا من قتلي وأنا الآن بجسدي وكتابي
+Dialogue: 0,0:17:25.74,0:17:26.94,italics,Asta,0000,0000,0000,,!لن أدعك
+Dialogue: 0,0:17:29.82,0:17:31.27,main,Devil,0000,0000,0000,,إلغاء السحر؟
+Dialogue: 0,0:17:32.06,0:17:32.74,italics,Licht,0000,0000,0000,,...كما توقعت
+Dialogue: 0,0:17:32.74,0:17:34.07,italics,Secré,0000,0000,0000,,...ربما بإلغاء السحر
+Dialogue: 0,0:17:36.58,0:17:41.01,italics,Devil,0000,0000,0000,,...يمكن لهذا الرمح تهوير أيّ شيء يلمسه، لكن
+Dialogue: 0,0:17:41.01,0:17:43.16,italics,Devil,0000,0000,0000,,.لكنه وحده لا يدعو للخوف
+Dialogue: 0,0:17:43.63,0:17:44.66,main,Devil,0000,0000,0000,,.عد
+Dialogue: 0,0:17:46.16,0:17:47.97,main,Devil,0000,0000,0000,,.عاصفة الأنصال
+Dialogue: 0,0:17:51.10,0:17:54.06,main,Asta,0000,0000,0000,,!شكرًا لكم جميعًا
+Dialogue: 0,0:17:56.23,0:17:58.27,italics,Yuno,0000,0000,0000,,...سحره هائل للغاية
+Dialogue: 0,0:17:58.27,0:17:59.93,italics,Yuno,0000,0000,0000,,.لكنّي لا أشعر أنّها طاغية
+Dialogue: 0,0:17:59.93,0:18:02.34,italics,Yuno,0000,0000,0000,,.إنّه أشبه بنصل مشحوذ جيّدًا
+Dialogue: 0,0:18:03.33,0:18:06.06,italics,Yuno,0000,0000,0000,,.هذا هو قائد الإلف المستفيق
+Dialogue: 0,0:18:06.65,0:18:12.07,italics,Yuno,0000,0000,0000,,لكن ما هذا الشعور الدافئ الحنيني الذي يحيط بي؟
+Dialogue: 0,0:18:12.44,0:18:14.09,main,Secré,0000,0000,0000,,!أيّها الأمير! ذراعك
+Dialogue: 0,0:18:14.94,0:18:17.57,main,Secré,0000,0000,0000,,.سأقفل الجرح وأختم الضرر
+Dialogue: 0,0:18:17.57,0:18:20.57,main,Secré,0000,0000,0000,,.سحر الختم: الحزن المغلق
+Dialogue: 0,0:18:22.16,0:18:24.24,main,Lumiere,0000,0000,0000,,.شكرًا لك يا سيكري
+Dialogue: 0,0:18:24.24,0:18:25.97,main,Asta,0000,0000,0000,,!هذا رائع للغاية
+Dialogue: 0,0:18:25.97,0:18:28.82,main,Asta,0000,0000,0000,,!كما هو متوقّع من صديق لإمبراطور السحر الأول
+Dialogue: 0,0:18:28.82,0:18:33.35,main,Asta,0000,0000,0000,,.لكني بطريقة ما، لا أشعر أنّها أول مرة نلتقي فيها
+Dialogue: 0,0:18:34.25,0:18:35.30,main,Asta,0000,0000,0000,,
+Dialogue: 0,0:18:35.30,0:18:36.96,main,Asta,0000,0000,0000,,،الكي الخاص بك والجو المحيط بك
+Dialogue: 0,0:18:36.96,0:18:39.26,main,Asta,0000,0000,0000,,...وعيناك اللتان تذكرانني بشخص أعرفه
+Dialogue: 0,0:18:39.26,0:18:43.56,top,Asta,0000,0000,0000,,!ما الذي تفعلينه؟
+Dialogue: 0,0:18:39.45,0:18:41.27,main,Secré,0000,0000,0000,,.ركز على القتال
+Dialogue: 0,0:18:45.54,0:18:49.56,main,Devil,0000,0000,0000,,.قدرتك تلك مفيدة جدًّا. فقد تمكّنت من ختمي
+Dialogue: 0,0:18:50.13,0:18:53.75,main,Devil,0000,0000,0000,,هذا بالنسبة لسحر من هذا \Nالعالم الذي يشبه عشبة وليس بقوة
+Dialogue: 0,0:18:53.75,0:18:56.44,main,Devil,0000,0000,0000,,.سحر النفلة الرباعية حتى
+Dialogue: 0,0:18:56.80,0:19:01.41,main,Devil,0000,0000,0000,,.لكنه الآن سحر ناقص وعديم النفع بما أنّي أملك جسدي
+Dialogue: 0,0:19:01.41,0:19:02.90,main,Secré,0000,0000,0000,,.اخرس
+Dialogue: 0,0:19:02.90,0:19:07.22,main,Secré,0000,0000,0000,,تمكنّ الأمير من إيجاد إمكانيات \N.حتّى في سحر مثل سحري
+Dialogue: 0,0:19:07.22,0:19:10.50,main,Secré,0000,0000,0000,,!أراني أنّ هناك شيئًا حتّى أنا يمكنني فعله
+Dialogue: 0,0:19:11.25,0:19:13.39,flashback,Lumiere,0000,0000,0000,,،لديّ كتاب النفلة الرباعية وسحر النور
+Dialogue: 0,0:19:13.39,0:19:16.57,flashback,Lumiere,0000,0000,0000,,،لذا يقول الناس أنّ سحري مذهل
+Dialogue: 0,0:19:16.57,0:19:21.18,flashback,Lumiere,0000,0000,0000,,.لكني أظنّنا مختلفين فحسب، وأنّنا جميعًا مذهلون
+Dialogue: 0,0:19:21.18,0:19:25.12,flashback,Secré,0000,0000,0000,,.لكن سحري يمكنه فتح وإغلاق الأشياء فقط
+Dialogue: 0,0:19:25.12,0:19:26.60,flashback,Secré,0000,0000,0000,,.إنّه عديم النفع
+Dialogue: 0,0:19:26.60,0:19:28.15,flashback,Lumiere,0000,0000,0000,,أنا واثق أني أخبرتك
+Dialogue: 0,0:19:28.15,0:19:31.22,flashback,Lumiere,0000,0000,0000,,أنّ هناك استعمالات كثيرة لسحر الختم خاصتك
+Dialogue: 0,0:19:31.22,0:19:32.57,flashback,Lumiere,0000,0000,0000,,.لم تُكتشف بعد
+Dialogue: 0,0:19:32.57,0:19:36.44,flashback,Lumiere,0000,0000,0000,,.هناك فرص للجميع وأشياء هم فقط يمكنهم فعلها
+Dialogue: 0,0:19:37.18,0:19:38.99,flashback,Secré,0000,0000,0000,,شيء يمكنني أنا فقط فعله؟
+Dialogue: 0,0:19:39.86,0:19:42.36,flashback,Lumiere,0000,0000,0000,,...مثل الأدوات السحرية التي نصنعها الآن بالضبط
+Dialogue: 0,0:19:42.36,0:19:45.69,flashback,Lumiere,0000,0000,0000,,،إن حاول الجميع استعمال قواهم للجميع
+Dialogue: 0,0:19:45.69,0:19:47.61,flashback,Lumiere,0000,0000,0000,,.فأظنّ أنّ هذه المملكة ستكون مذهلة
+Dialogue: 0,0:19:48.78,0:19:52.07,main,Secré,0000,0000,0000,,!أنت موجود للسرقة من الآخرين فقط
+Dialogue: 0,0:19:52.62,0:19:56.52,main,Secré,0000,0000,0000,,الأشخاص الذي استخففت بهم ودست عليهم واستهزأت بهم
+Dialogue: 0,0:19:56.52,0:19:58.30,main,Secré,0000,0000,0000,,!سيهزمونك الآن
+Dialogue: 0,0:19:58.30,0:20:01.13,main,Devil,0000,0000,0000,,.عليكم أن تسرعوا إذًا
+Dialogue: 0,0:20:01.13,0:20:03.89,main,Devil,0000,0000,0000,,،فمهما عصفتم بهذا السحر
+Dialogue: 0,0:20:03.89,0:20:07.14,main,Devil,0000,0000,0000,,.سيستمر في التدفق إلى أن تهزموني
+Dialogue: 0,0:20:07.14,0:20:10.19,main,Devil,0000,0000,0000,,،بما أنّ المخرج هنا في الطابق العلوي
+Dialogue: 0,0:20:10.19,0:20:12.34,main,Devil,0000,0000,0000,,سيتمّ ابتلاع جميع أصدقائكم في الأجزاء السفلية
+Dialogue: 0,0:20:12.34,0:20:15.33,main,Devil,0000,0000,0000,,.وسيموتون إن تابعتم إهدار الوقت
+Dialogue: 0,0:20:17.15,0:20:18.69,main,Asta,0000,0000,0000,,!أيّها الوغد
+Dialogue: 0,0:20:19.10,0:20:22.47,italics,Patlicht,0000,0000,0000,,.لكن حتّى سحر ليخت-سان ولوميير لم يتمكّن من هزيمته
+Dialogue: 0,0:20:22.91,0:20:25.78,italics,Patlicht,0000,0000,0000,,.إن لم يكن هجومنا هجومًا قويًّا للغاية، فلا فائدة
+Dialogue: 0,0:20:26.89,0:20:28.09,main,Licht,0000,0000,0000,,.بالطبع
+Dialogue: 0,0:20:29.38,0:20:32.38,main,licht,0000,0000,0000,,سنخلّص هذا المكان من هذا السحر الملعون
+Dialogue: 0,0:20:32.38,0:20:34.79,main,licht,0000,0000,0000,,.بضربة قوية مكونة من مساعدة أصدقائنا
+Dialogue: 0,0:20:35.18,0:20:36.04,main,Patlicht,0000,0000,0000,,!ليخت-سان
+Dialogue: 0,0:20:36.83,0:20:38.79,main,Licht,0000,0000,0000,,.سأستعير قوتكم
+Dialogue: 0,0:20:46.74,0:20:50.05,main,Yami,0000,0000,0000,,.بدت هذه فكرة سديدة حينها
+Dialogue: 0,0:20:50.05,0:20:52.09,main,Charlotte,0000,0000,0000,,.أنت قريب جدًّا مني أيّها البشري
+Dialogue: 0,0:20:52.09,0:20:53.94,main,Charlotte,0000,0000,0000,,ألا يمكنك توسيع هذا الفضاء؟
+Dialogue: 0,0:20:53.94,0:20:56.07,main,Yami,0000,0000,0000,,هل أنت جادّة الآن؟
+Dialogue: 0,0:20:56.07,0:20:58.38,main,Yami,0000,0000,0000,,أنقذتك للتو وهكذا تشكرينني؟
+Dialogue: 0,0:20:58.38,0:21:01.49,main,Yami,0000,0000,0000,,.ما زلت الملكة الشائكة مع أنّك شخصًا مختلفًا في الداخل
+Dialogue: 0,0:21:02.36,0:21:04.98,main,Yami,0000,0000,0000,,تبًّا. على هذا الحال
+Dialogue: 0,0:21:04.98,0:21:07.07,main,Yami,0000,0000,0000,,.ستمتص سحري إلى أن يختفي بالكامل
+Dialogue: 0,0:21:07.52,0:21:09.30,main,Yami,0000,0000,0000,,الجانب المشرق من كل هذا
+Dialogue: 0,0:21:09.30,0:21:12.87,main,Yami,0000,0000,0000,,...هو قدرتك على استعمال سحر الشفاء. تبًّا
+Dialogue: 0,0:21:13.70,0:21:16.25,main,Charlotte,0000,0000,0000,,...يا إلهي. مع أني كنت لطيفة ما يكفي لشفائك
+Dialogue: 0,0:21:16.89,0:21:20.07,main,Yami,0000,0000,0000,,مهلا... لماذا تشعين؟
+Dialogue: 0,0:21:20.07,0:21:21.71,main,Yami,0000,0000,0000,,!أنت تعمينني
+Dialogue: 0,0:21:21.71,0:21:23.26,main,Charlotte,0000,0000,0000,,...هذا
+Dialogue: 0,0:21:26.63,0:21:29.15,main,Charmy,0000,0000,0000,,!هذا ما تستحقه لتبذير طعامي الثمين
+Dialogue: 0,0:21:29.15,0:21:31.51,main,Charmy,0000,0000,0000,,!هذه قوة الشهية
+Dialogue: 0,0:21:44.53,0:21:46.36,main,Raia,0000,0000,0000,,...ليخت-كن
+Dialogue: 0,0:21:50.47,0:21:53.75,main,Licht,0000,0000,0000,,.ستواجه الآن غضب الإلف الحقيقي
+Dialogue: 0,0:21:53.75,0:21:57.71,main,Licht,0000,0000,0000,,سحر السيوف المطلق: دهر \N!السيف قاهر الشيطان المستوطن
+Dialogue: 0,0:22:23.19,0:22:25.59,main,Asta,0000,0000,0000,,!مذهل
+Dialogue: 0,0:22:26.22,0:22:28.86,italics,Yuno,0000,0000,0000,,.سحره من مستوى آخر تمامًا
+Dialogue: 0,0:22:29.71,0:22:31.62,main,Secré,0000,0000,0000,,.نجحنا
+Dialogue: 0,0:22:32.29,0:22:34.83,main,Patlicht,0000,0000,0000,,!أنت مذهل يا ليخت-سان
+Dialogue: 0,0:22:42.67,0:22:46.19,main,Patlicht,0000,0000,0000,,إنّه... قلب الشيطان؟
+Dialogue: 0,0:22:47.30,0:22:48.67,main,Devil,0000,0000,0000,,.شفاء
+Dialogue: 0,0:22:55.05,0:22:59.94,main,Devil,0000,0000,0000,,.ألم أقل لكم؟ لا يمكنكم قتلي
+Dialogue: 0,0:23:00.27,0:23:03.44,italics,Devil,0000,0000,0000,,.ليس بسحر هذا العالم
+Dialogue: 0,0:23:05.03,0:23:07.97,italics,Patlicht,0000,0000,0000,,ما زال بإمكانه التجدد رغم قوة تلك التعويذة؟
+Dialogue: 0,0:23:07.97,0:23:09.20,italics,Patlicht,0000,0000,0000,,...كيف يُفترض بنا
+Dialogue: 0,0:23:11.33,0:23:14.95,italics,Asta,0000,0000,0000,,.تلك هي قوة ذلك السيف الحقيقية
+Dialogue: 0,0:23:15.46,0:23:18.33,italics,Asta,0000,0000,0000,,هل هناك قوة ما لم أحررها بعد في سيفي؟
+Dialogue: 0,0:23:18.33,0:23:20.22,italics,Asta,0000,0000,0000,,!قد تكون هناك إمكانية ما
+Dialogue: 0,0:23:20.22,0:23:23.66,italics,Asta,0000,0000,0000,,!لم أتمكن من محو ذلك الرمح، لكنّي تمكّنت من صدّه
+Dialogue: 0,0:23:23.66,0:23:29.21,italics,Asta,0000,0000,0000,,في تلك الحالة، كان إلغاء السحر خاصتي\N!ضعيفًا فحسب، لكنّه كان فعالًا رغم ذلك
+Dialogue: 0,0:23:29.21,0:23:31.72,italics,Asta,0000,0000,0000,,...إن تمكّنت من القتال مثلهما
+Dialogue: 0,0:23:34.10,0:23:38.17,italics,Asta,0000,0000,0000,,!هناك قوة أنا فقط يمكنني استعمالها لأنّي لا أملك سحرًا
+Dialogue: 0,0:23:40.09,0:23:41.94,main,Asta,0000,0000,0000,,.لا أملك سحرًا
+Dialogue: 0,0:23:41.94,0:23:44.19,main,Asta,0000,0000,0000,,لكن لهذا السبب بالضبط هناك \N!قوة أنا فقط يمكنني استعمالها
+Dialogue: 0,0:23:44.19,0:23:46.40,main,Asta,0000,0000,0000,,!ليس بعد! لم أنته بعد
+Dialogue: 0,0:23:46.82,0:23:50.40,main,Asta,0000,0000,0000,,.في الحلقة القادمة من بلاك كلوفر، الصفحة 119، الهجوم الأخير
+Dialogue: 0,0:23:47.94,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}الصفحة 119\N\N{\fs18} الهجوم الأخير
+Dialogue: 0,0:23:50.40,0:23:53.49,main,Asta,0000,0000,0000,,!يونو! فلنسكت ذلك الشخص معًا

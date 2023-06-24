@@ -170,7 +170,7 @@ if x == 1:
         if in_start <= end_of:
             vidnamear.append(str(in_start)+".ts")
             vidsub.append(str(in_start)+".ass")
-            vidnameoutar.append("[DisCinema.com]_Naruto_Shippuden_S"+ s_season +"_EP"+str(in_start)+".mp4")
+            vidnameoutar.append("[DisCinema.com]_Black_Clover_S"+ s_season +"_EP"+str(in_start)+".mp4")
        
         clear()
         in_start+=1
@@ -184,9 +184,18 @@ else:
 def sendMessage(message):
     bot_token = "5953645919:AAEU9QcdoE799ImWqaT6m5ezDgEYNQqt0E0"
     chat_id = "916444149"
-    encoded_message = urllib.parse.quote_plus(message)
-    url = f"https://api.telegram.org/bot{bot_token}/sendMessage?chat_id={chat_id}&text={encoded_message}"
-    requests.get(url)   
+    max_length = 4090  # Maximum number of UTF-8 characters per message
+    
+    chunks = [message[i:i+max_length] for i in range(0, len(message), max_length)]
+    
+    for chunk in chunks:
+        encoded_message = urllib.parse.quote_plus(chunk)
+        url = f"https://api.telegram.org/bot{bot_token}/sendMessage?chat_id={chat_id}&text={encoded_message}"
+        requests.get(url)
+    
+    #encoded_message = urllib.parse.quote_plus(message)
+    #url = f"https://api.telegram.org/bot{bot_token}/sendMessage?chat_id={chat_id}&text={encoded_message}"
+    #requests.get(url)   
     
 #send message
 mymsg = ""
@@ -195,8 +204,9 @@ for x in MsgVideos:
     mymsg += x
     print(x)
     rkm = rkm + 1
-mymsg += "Total {0} Uploaded & Done Successfully 👍".format(str(rkm))
+lastmessage = "Total {0} Uploaded & Done Successfully 👍".format(str(rkm))
 
 print(mymsg)
 sendMessage(mymsg)
+sendMessage(lastmessage)
 os.system('echo "Message MUST BE SENT"')

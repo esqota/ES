@@ -1,0 +1,616 @@
+[Script Info]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Times New Roman,24,&H0014B6D3,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Adobe Arabic,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: OP_ED,Adobe Arabic,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: main,Times New Roman,24,&H005C00B6,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: SignA,Times New Roman,26,&H005C00B6,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0040,0040,0018,0
+Style: italics,Times New Roman,24,&H00FC00C6,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Times New Roman,24,&H00E59511,&H000000FF,&H00400000,&H00400000,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: top,Adobe Arabic,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italicstop,Adobe Arabic,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Adobe Arabic,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,-1,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Adobe Arabic,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Adobe Arabic,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,-1,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Adobe Arabic,38,&H00E4E2F0,&H000000FF,&H64070805,&H000D1728,-1,-1,0,0,100,100,0,0,1,0,0,8,0030,0030,0100,1
+Style: sign_34238_338_Page_2_The_Boys_,Adobe Arabic,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,-1,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_12339_133_Finnes_Calmreich,Adobe Arabic,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_14960_120_The_Apostles_of_,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0100,1
+Style: sign_27919_273_Equinox,Adobe Arabic,34,&H00FFFFFF,&H000000FF,&H00000302,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_26668_324_Black_Bulls__Hid,Adobe Arabic,40,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0040,0125,1
+Style: sign_33083_276_Petit_Clover_,Adobe Arabic,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Adobe Arabic,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_138_1_Black_Clover_is_,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_1785_19_Vice_Captain_of_,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0070,0275,0090,1
+Style: sign_3584_15_Theresa_Rapual,Adobe Arabic,36,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0250,0065,1
+Style: sign_3584_16_Neige,Adobe Arabic,36,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0450,0030,0065,1
+Style: sign_4413_32_Revchi,Adobe Arabic,36,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0385,0070,1
+Style: sign_4413_33_Gueldre_Poizot,Adobe Arabic,36,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0225,0030,0070,1
+Style: sign_5516_38_King_of_the_Clov,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0105,1
+Style: sign_5597_54_Captain_of_the_G,Adobe Arabic,26,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_6102_39_Vetto_the_Despai,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0108,0362,0129,1
+Style: sign_6102_40_Fana_the_Hateful,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0081,0076,1
+Style: sign_6730_49_Captain_of_the_A,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_7061_51_A_Team_Coral_Pea,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_7198_131_Nean,Adobe Arabic,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0336,0254,0134,1
+Style: sign_7198_132_Common_Realm,Adobe Arabic,24,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0450,0190,1
+Style: sign_7198_133_Kikka,Adobe Arabic,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0265,0315,0260,1
+Style: sign_7798_63_High_,Adobe Arabic,22,&H00F6F4FD,&H000000FF,&H322300BB,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_7798_64_Devil,Adobe Arabic,27,&H00E4E6E1,&H000000FF,&H32000500,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_7798_67_Royals,Adobe Arabic,28,&H00EDF6F1,&H000000FF,&H320B0330,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_7839_71_Magic_,Adobe Arabic,29,&H00FCFCFC,&H000000FF,&H32000003,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_7876_72_Sol,Adobe Arabic,24,&H00E4E6E1,&H000000FF,&H32000500,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0085,0025,1
+Style: sign_7876_73_Commoners,Adobe Arabic,28,&H00EDF6F1,&H000000FF,&H321B0780,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0510,0064,1
+Style: sign_7880_74_Magna,Adobe Arabic,29,&H00E4E6E1,&H000000FF,&H32000500,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0135,0030,0155,1
+Style: sign_7880_75_Kid,Adobe Arabic,29,&H00E4E6E1,&H000000FF,&H32000500,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0202,0065,1
+Style: sign_7880_76_Bwah_,Verdana,30,&H00EAF9F7,&H000000FF,&H320D1B1B,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_7880_77_Low,Adobe Arabic,23,&H00F6F4FD,&H000000FF,&H32168FD6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0355,0030,0135,1
+Style: sign_9194_75_Yay____Yay____,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_10111_106_Venue_for_the_Ro,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_11720_132_Bell_,Adobe Arabic,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0235,0030,0070,1
+Style: sign_13025_94_That_s_amazing,Adobe Arabic,21,&H001F4D76,&H000000FF,&H32D7E0FE,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,2,0,1,0030,0030,0100,1
+Style: sign_13025_95_That_s_amazing,Adobe Arabic,21,&H004FAD56,&H000000FF,&H32D7E0FE,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,2,0,9,0030,0030,0020,1
+Style: sign_13177_157_1st_Class_Interm,Adobe Arabic,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0015,0424,0080,1
+Style: sign_13177_158_4th_Class_Senior,Adobe Arabic,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0230,0250,0080,1
+Style: sign_13177_159_1st_Class_Interm,Adobe Arabic,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0415,0030,0080,1
+Style: sign_14555_151_4_years_ago,Adobe Arabic,28,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0085,1
+Style: sign_15736_152_Sandler,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0060,0505,0205,1
+Style: sign_15736_154_Solid,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0135,0455,0225,1
+Style: sign_15736_155_O_Team,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0110,0440,0060,1
+Style: sign_15736_156_En___Noelle___Yu,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0070,0205,1
+Style: sign_16031_175_The_Eye_of_the_M,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_16031_176_Sally,Adobe Arabic,26,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0350,0075,1
+Style: sign_16031_177_Rades,Adobe Arabic,26,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0335,0030,0075,1
+Style: sign_16413_171_First_Wizard_Kin,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0100,1
+Style: sign_16520_180_Spade_Kingdom,Adobe Arabic,25,&H00101F2B,&H000000FF,&H00A6B2BE,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_17323_210_Also_got_in_thro,Adobe Arabic,24,&H000B0B0B,&H000000FF,&H00FFFFFF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0159,0156,0020,1
+Style: sign_18699_183_Luck_s_High_Mana,Adobe Arabic,31,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0020,1
+Style: sign_18752_184_High_Mana_Detect,Adobe Arabic,34,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0195,0030,0130,1
+Style: sign_19021_200_500_Years_Ago,Adobe Arabic,37,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0220,1
+Style: sign_19376_197_Fate_Manipulatio,Times New Roman,16,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0000,0134,0020,1
+Style: sign_19376_198_Fate_Manipulatio,Times New Roman,30,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0121,0000,0020,1
+Style: sign_19376_197_F_a_t_e___M_a_n_,Times New Roman,19,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0492,0130,0020,1
+Style: sign_19376_201_A_b_s_o_l_u_t_e_,Times New Roman,19,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0100,0477,0018,1
+Style: sign_21447_269_Mage_Attendant_t,Adobe Arabic,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0310,0095,1
+Style: sign_21447_270_1st_Class_Interm,Adobe Arabic,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0355,0030,0095,1
+Style: sign_22029_222_Wimpy,Adobe Arabic,30,&H00171816,&H000000FF,&H00EEEDED,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0040,0030,0040,1
+Style: sign_22078_223_Carefree,Adobe Arabic,30,&H00171816,&H000000FF,&H00EEEDED,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,6,0040,0030,0020,1
+Style: sign_24182_226_Member_of_the_Pu,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_24745_288_Magic_Parliament,Adobe Arabic,35,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0080,1
+Style: sign_25640_274_Group_1_En_Ringa,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0040,0030,0125,1
+Style: sign_32950_385_Halt_,Adobe Arabic,30,&H00332E32,&H000000FF,&H00DADEE2,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0360,0030,0020,1
+Style: sign_32992_374_gLaMoUr_WoRlD,Verdana,30,&H00A787ED,&H000000FF,&H001A1E4B,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0084,0404,0250,1
+Style: sign_33089_334_Bulls,Adobe Arabic,30,&H0007A0E4,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,6,0030,0030,0020,1
+Style: sign_33137_335_Hello__we_re_Gor,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33018_294_Sa,Adobe Arabic,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0045,0030,0275,1
+Style: sign_33018_295_Rii,Adobe Arabic,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,1,0480,0030,0130,1
+Style: sign_33090_345_Part_1_,Adobe Arabic,35,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0262,0262,0275,1
+Style: sign_33126_298_Shi,Adobe Arabic,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0275,1
+Style: sign_33126_299_Rii,Adobe Arabic,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,1,0465,0030,0130,1
+Style: sign_33236_349_Luck,Trebuchet MS,30,&H00000100,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_33248_350_Ahaha_,Verdana,30,&H00161622,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0030,0030,0020,1
+Style: sign_33332_352_Rucksack,Verdana,30,&H00161622,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0030,0030,0020,1
+Style: sign_33427_257_Weaken__Naeru_,Adobe Arabic,30,&H00000100,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: Flashback_Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00500000,&H00500000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Narration,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: main - subtitles,Adobe Arabic,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0058,0
+Style: sign_4194_20_C_Team_The_Coral,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_9718_95_Langris,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0130,0435,0220,1
+Style: sign_9718_98_Leopold,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0345,0215,0205,1
+Style: sign_9718_99_Finral,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0455,0125,0220,1
+Style: sign_9718_100_Hamon,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0530,0040,0205,1
+Style: sign_9784_85_Xerx,Adobe Arabic,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0113,0461,0254,1
+Style: sign_9784_86_Mimosa,Adobe Arabic,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0072,0460,0186,1
+Style: sign_9784_87_Asta,Adobe Arabic,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0114,0464,0113,1
+Style: sign_9784_88_Kirsch,Adobe Arabic,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0442,0106,0282,1
+Style: sign_9784_89_Sol,Adobe Arabic,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0423,0175,0217,1
+Style: sign_9784_90_Magna,Adobe Arabic,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0424,0122,0132,1
+Style: sign_10224_102_Sol___Kirsch___M,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0375,0070,0205,1
+Style: sign_10224_104_Cesc___Adrian___,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0055,0385,0205,1
+Style: sign_10224_103_C_Team,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0425,0135,0060,1
+Style: sign_10224_105_D_Team,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0130,0420,0060,1
+Style: sign_10482_94_Green_Praying_Ma,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_10657_102_Roland,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0050,0520,0205,1
+Style: sign_10657_103_Nix,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0235,0370,0205,1
+Style: sign_10657_104_Wainsley,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0105,0445,0225,1
+Style: sign_11341_108_Four_Years_Ago,Adobe Arabic,28,&H00FDFDFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0220,1
+Style: sign_11640_111_Sol_Marron,Adobe Arabic,30,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_15736_157_P_Team,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0435,0115,0060,1
+Style: sign_16988_180_Cherry_Blossom_M,Adobe Arabic,22,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0140,1
+Style: sign_17843_174_Sekke___Langris_,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0040,0370,0175,1
+Style: sign_17843_176_Xerx___Asta___Mi,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0370,0065,0175,1
+Style: sign_22199_178_Rill___Reuben___,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0065,0370,0155,1
+Style: sign_22199_180_Klaus__Luck__Pul,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0388,0070,0155,1
+Style: sign_28900_402_Buzz__Buzz__Buzz,Adobe Arabic,20,&H00F4F8EF,&H000000FF,&H32474433,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0455,0110,0020,1
+Style: sign_28966_288_The_Blue_Rose_Kn,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32241D26,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_29050_405_Boop_boop_be_laa,Adobe Arabic,20,&H006244A9,&H000000FF,&H0034236A,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0415,0070,0020,1
+Style: sign_29261_411_La,Adobe Arabic,30,&H00F3F4E2,&H000000FF,&H32A9D171,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0150,0465,0305,1
+Style: sign_29406_414_Laan_,Adobe Arabic,24,&H0055119C,&H000000FF,&H322E236A,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0085,0495,0020,1
+Style: sign_29885_315_C_Team_The_Coral,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32424340,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_30215_308_Rob,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0040,0560,0200,1
+Style: sign_30215_309_Francis,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0105,0465,0220,1
+Style: sign_30215_310_Winston,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0210,0345,0200,1
+Style: sign_30215_312_Puli,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0210,0200,1
+Style: sign_30215_313_Klaus,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0460,0125,0220,1
+Style: sign_30215_314_Luck,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0550,0040,0200,1
+Style: sign_30215_315_K_Team,Adobe Arabic,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0415,0135,0060,1
+Style: sign_32825_278_Zara,Adobe Arabic,26,&H00010403,&H000000FF,&H00E1E8E7,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0143,0439,0133,1
+Style: sign_32825_279_Zora,Adobe Arabic,30,&H00010101,&H000000FF,&H00F8F6FB,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0355,0030,0020,1
+Style: sign_32916_371_Mana,Adobe Arabic,22,&H00262525,&H000000FF,&H00E9EDE1,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0040,0155,1
+Style: sign_32971_372_Mana,Adobe Arabic,30,&H00262525,&H000000FF,&H00E9EDE1,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_32987_284_Zara,Adobe Arabic,30,&H00020202,&H000000FF,&H00FEFCFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0070,0020,1
+Style: sign_32987_285_Zora,Adobe Arabic,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0070,0150,1
+Style: sign_33024_375_Serious_,Adobe Arabic,22,&H00262525,&H000000FF,&H00E9EDE1,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0265,0030,0180,1
+Style: sign_33147_287_Oldest_Brother_A,Adobe Arabic,10,&H001A00C6,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_33285_329_I_ll____kill_him,Adobe Arabic,22,&H00161B0C,&H000000FF,&H00FBFFCE,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33322_360_Bathroom_,Adobe Arabic,28,&H007F9096,&H000000FF,&H32233248,&H0087C2CE,-1,0,0,0,100,100,0,0,1,2,3,2,0110,0030,0270,1
+Style: sign_33398_297_Festival,Adobe Arabic,16,&H005D5A57,&H000000FF,&H00F7F5F6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0074,1
+Style: sign_33402_326_Noms_,Adobe Arabic,20,&H00393B47,&H000000FF,&H32D1C9CF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0080,1
+Style: sign_33436_362_Bathroom,Adobe Arabic,10,&H0045403D,&H000000FF,&H3256ADB3,&H0087C2CE,-1,0,0,0,100,100,0,-8,1,3,0,2,0210,0260,0315,1
+Style: sign_33586_380_Wizard_King_Gran,Adobe Arabic,12,&H00F8FFFF,&H000000FF,&H002C353A,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,0030,0030,0020,1
+Style: sign_33615_332_Noms,Adobe Arabic,28,&H001D1C1F,&H000000FF,&H3261919A,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33774_286_That_thing_s_fil,Adobe Arabic,26,&H003A4C4A,&H000000FF,&H00F4FCFA,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0415,0160,1
+Style: sign_1785_20_Vice_Captain_of_,Adobe Arabic,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0365,0030,0090,1
+Style: sign_16832_220_Diamond_Kingdom,Times New Roman,20,&H000A1A2A,&H000000FF,&H00BFCBD6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0428,0030,0020,1
+Style: sign_17072_224_Diamond_Kingdom_,Times New Roman,20,&H00FEFBFD,&H000000FF,&H001A1716,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0038,0038,0105,1
+Style: sign_5669_78_Diamond_Kingdom_,Adobe Arabic,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0419,0030,0020,1
+Style: sign_5669_76_Heart_Kingdom_,Adobe Arabic,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0030,0030,0020,1
+Style: sign_5669_77_Spade_Kingdom,Adobe Arabic,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0220,0265,0050,1
+Style: sign_5669_78_Forsaken_Realm,Adobe Arabic,16,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0240,0275,0110,1
+Style: sign_5669_79_Common_Realm,Adobe Arabic,16,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0240,0270,0155,1
+Style: sign_5669_80_Noble_Realm,Adobe Arabic,16,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0260,0280,0255,1
+Style: sign_5669_81_Rayaka,Adobe Arabic,12,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0385,0210,0085,1
+Style: sign_5669_82_Nean,Adobe Arabic,12,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0375,0235,0150,1
+Style: sign_5669_83_Kikka,Adobe Arabic,12,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0350,0255,0190,1
+Style: sign_5669_84_Raquey,Adobe Arabic,12,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0377,0219,0268,1
+Style: sign_5669_85_Kiten,Adobe Arabic,12,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0450,0160,0310,1
+Style: sign_5713_89_Diamond_Kingdom_,Adobe Arabic,14,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0419,0030,0020,1
+Style: sign_5713_87_Heart_Kingdom_,Adobe Arabic,14,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0300,0452,0050,1
+Style: sign_5713_88_Spade_Kingdom,Adobe Arabic,14,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0399,0133,0043,1
+Style: sign_5713_89_Forsaken_Realm,Adobe Arabic,10,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0402,0126,0081,1
+Style: sign_5713_90_Common_Realm,Adobe Arabic,10,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0419,0143,0111,1
+Style: sign_5713_91_Noble_Realm,Adobe Arabic,10,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0430,0145,0170,1
+Style: sign_5713_92_Rayaka,Adobe Arabic,8,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0505,0095,0070,1
+Style: sign_5713_93_Nean,Adobe Arabic,8,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0505,0115,0105,1
+Style: sign_5713_94_Kikka,Adobe Arabic,8,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0485,0130,0135,1
+Style: sign_5713_95_Raquey,Adobe Arabic,8,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0505,0105,0185,1
+Style: sign_5713_96_Kiten,Adobe Arabic,8,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0555,0065,0215,1
+Style: sign_5964_101_Nean_Common_Real,Adobe Arabic,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_6168_105_Heart_Kingdom,Adobe Arabic,28,&H00F6F7FB,&H000000FF,&H00B1B9BD,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0030,0030,0020,1
+Style: sign_6499_112_Spade_Kingdom,Adobe Arabic,20,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0257,0229,0045,1
+Style: sign_6499_113_Diamond_Kingdom,Adobe Arabic,20,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0030,0030,0020,1
+Style: sign_6499_113_Spade_Kingdom,Times New Roman,20,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0265,0221,0114,1
+Style: sign_6449_110_Forsaken_Realm,Adobe Arabic,16,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0265,0215,0115,1
+Style: sign_6449_111_Common_Realm,Adobe Arabic,16,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0265,0220,0175,1
+Style: sign_6449_112_Noble_Realm,Adobe Arabic,16,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0290,0230,0095,1
+Style: sign_6449_113_Rayaka,Adobe Arabic,14,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0440,0140,0085,1
+Style: sign_6449_114_Nean,Adobe Arabic,14,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0430,0175,0165,1
+Style: sign_6449_115_Kikka,Adobe Arabic,14,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0402,0196,0217,1
+Style: sign_6449_116_Raquey,Adobe Arabic,14,&H00F6F7FB,&H000000FF,&H009AA5A6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0435,0145,0075,1
+Style: sign_18183_236_Silver_Eagles_Sq,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0335,0025,0097,1
+Style: sign_18183_237_Crimson_Lion_Kin,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0006,0352,0096,1
+Style: sign_18183_233_Crimson_Lion_Kin,Adobe Arabic,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0335,0030,0100,1
+Style: sign_18183_232_Silver_Eagles_Sq,Adobe Arabic,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0035,0385,0100,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:04:10.00,0:04:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:08:10.00,0:08:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:10:10.00,0:10:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:12:10.00,0:12:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:14:10.00,0:14:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:16:10.00,0:16:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:19:10.00,0:19:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:21:10.00,0:21:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:23:10.00,0:23:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:00:04.00,0:00:14.00,SignA,E,0000,0000,0000,,{\move(320,360,320,80)}{\fad(1000,1000)}{\blur2\pos(310,153)}نتمني لكم مشاهدة ممتعة \N DisCinema.com موقع 
+Dialogue: 0,0:21:15.00,0:21:25.00,SignA,,0000,0000,0000,,{\move(320,360,320,80)}{\fad(1000,1000)}{\blur2\pos(310,153)}زورو موقعنا لمذيد من الحلقات و الانمي و المسلسلات الاخري \N ♥DisCinema.com موقع♥
+
+Dialogue: 0,0:00:05.33,0:00:07.33,italics,Nar,0000,0000,0000,,.مملكة كلوفر
+Dialogue: 0,0:00:07.33,0:00:10.14,italics,Nar,0000,0000,0000,,،يوجد في هذه المملكة حيث يمثل السحر كلّ شيء
+Dialogue: 0,0:00:10.14,0:00:12.41,italics,Nar,0000,0000,0000,,.فتى وحيد لا يستطيع استعمال السحر
+Dialogue: 0,0:00:12.97,0:00:14.95,italics,Nar,0000,0000,0000,,!واسمه أستا
+Dialogue: 0,0:00:15.87,0:00:18.41,italics,Nar,0000,0000,0000,,تمكّن من الانضمام إلى فرسان \N،السحر بفضل جهوده وشجاعته
+Dialogue: 0,0:00:18.86,0:00:21.70,italics,Nar,0000,0000,0000,,.ولم يستسلم مهما تأذّى
+Dialogue: 0,0:00:21.70,0:00:24.75,italics,Nar,0000,0000,0000,,!وتابع التقدّم ليرتقي أكثر وأكثر
+Dialogue: 0,0:00:26.27,0:00:27.79,italics,Nar,0000,0000,0000,,،حتّى وإن كنت قرويًّا
+Dialogue: 0,0:00:27.79,0:00:29.63,italics,Nar,0000,0000,0000,,...أو حتّى وإن كنت فقيرًا
+Dialogue: 0,0:00:30.58,0:00:33.13,italics,Nar,0000,0000,0000,,!يمكن لأيّ أحد أن يسطع في هذا العالم
+Dialogue: 0,0:00:33.13,0:00:34.81,italics,Nar,0000,0000,0000,,...سوف يثبت ذلك
+Dialogue: 0,0:00:35.73,0:00:38.47,italics,Nar,0000,0000,0000,,!كي يصبح إمبراطور السحر
+Dialogue: 0,0:00:41.27,0:00:43.50,italics,Nar,0000,0000,0000,,،بعد إيقاف فوضى العاصمة الملكية في الوقت الراهن
+Dialogue: 0,0:00:43.50,0:00:47.27,italics,Nar,0000,0000,0000,,.عاد أستا وباقي الثيران السوداء إلى مقرهم
+Dialogue: 0,0:00:49.30,0:00:51.53,main,Yami,0000,0000,0000,,!كدنا نصل للديار يا أغبياء
+Dialogue: 0,0:00:51.53,0:00:53.69,main,All,0000,0000,0000,,!أجل
+Dialogue: 0,0:00:54.35,0:00:58.07,main,Noelle,0000,0000,0000,,حدثت أمور كثيرة لدرجة أني \N.أشعر أنّنا لم نعد منذ وقت طويل
+Dialogue: 0,0:00:58.07,0:01:04.45,main,Asta,0000,0000,0000,,أليس كذلك؟ سوف أتمرن \N!بسلام اليوم على الأقل بمجرد عودتنا
+Dialogue: 0,0:01:04.45,0:01:06.31,main,Noelle,0000,0000,0000,,بسلام؟
+Dialogue: 0,0:01:08.08,0:01:12.21,main,Henry,0000,0000,0000,,.كدنا... نصل
+Dialogue: 0,0:02:41.20,0:02:44.56,Ep Title,Title,0000,0000,0000,,{\blur2}عودة
+Dialogue: 0,0:02:47.55,0:02:50.14,main,Asta,0000,0000,0000,,!أجل! لقد وصلنا
+Dialogue: 0,0:02:50.58,0:02:55.56,main,Magna,0000,0000,0000,,!هنري! أسرع وحوّل هذا الشيء لمقرنا
+Dialogue: 0,0:02:55.56,0:02:57.40,main,Henry,0000,0000,0000,,
+Dialogue: 0,0:02:57.99,0:02:59.68,main,Asta,0000,0000,0000,,هنري-سينباي؟
+Dialogue: 0,0:02:59.68,0:03:00.82,main,Vanessa,0000,0000,0000,,ما الخطب؟
+Dialogue: 0,0:03:01.43,0:03:02.62,main,Yami,0000,0000,0000,,هل تعاني من الإمساك؟
+Dialogue: 0,0:03:03.21,0:03:09.12,main,Henry,0000,0000,0000,,.نسيت... مظهر... المقر
+Dialogue: 0,0:03:09.12,0:03:10.83,main,All,0000,0000,0000,,!ماذا؟
+Dialogue: 0,0:03:11.83,0:03:13.62,main,Zora,0000,0000,0000,,.هذه مضحك
+Dialogue: 0,0:03:13.62,0:03:14.99,main,Magna,0000,0000,0000,,!مهلًا، مهلاً
+Dialogue: 0,0:03:14.99,0:03:18.03,main,Magna,0000,0000,0000,,!عشت فيه لأطول مدّة، فكيف نسيت؟
+Dialogue: 0,0:03:18.03,0:03:20.25,main,Magna,0000,0000,0000,,.هناك غرفة مشتركة ضخمة عندما ندخل
+Dialogue: 0,0:03:20.25,0:03:21.83,main,Magna,0000,0000,0000,,...وبعد ذلك
+Dialogue: 0,0:03:22.27,0:03:24.69,main,Magna,0000,0000,0000,,!أخبره يا أستا
+Dialogue: 0,0:03:24.69,0:03:27.47,main,Asta,0000,0000,0000,,!ماذا؟ مـ-مهلًا! أنا لا أدري
+Dialogue: 0,0:03:28.06,0:03:30.27,main,Gauche,0000,0000,0000,,.كان هناك معرض بضائع ماري
+Dialogue: 0,0:03:30.27,0:03:34.05,main,Charmy,0000,0000,0000,,!بل غرفة مؤن فيها مكونات من المملكة
+Dialogue: 0,0:03:34.05,0:03:35.62,main,Yami,0000,0000,0000,,.لا، بل السونا
+Dialogue: 0,0:03:35.62,0:03:37.81,main,Asta,0000,0000,0000,,!هل كان هناك أيّ من هذه الغرف؟
+Dialogue: 0,0:03:37.81,0:03:41.02,main,Asta,0000,0000,0000,,.لكن أظنّ نوعًا ما أنّها كانت موجودة
+Dialogue: 0,0:03:41.02,0:03:41.92,main,Noelle,0000,0000,0000,,...لكن
+Dialogue: 0,0:03:41.92,0:03:45.49,main,Noelle,0000,0000,0000,,.كانت الغرف تتحرك باستمرار في المقر، لذا يصعب التذكر
+Dialogue: 0,0:03:45.95,0:03:51.75,main,Henry,0000,0000,0000,,.هذا... لأنّكم... كنتم... تحطمون... الأشياء... باستمرار
+Dialogue: 0,0:03:52.25,0:03:56.48,main,Magna,0000,0000,0000,,،شكرًا لك على إصلاح الغرف\N!لكن لا تغير المكان دون إخبارنا
+Dialogue: 0,0:03:56.48,0:03:58.09,main,Finral,0000,0000,0000,,كم مرة أخذت يامي-سان التائه
+Dialogue: 0,0:03:58.09,0:04:00.53,main,Finral,0000,0000,0000,,إلى الحمّام بسحري المكاني؟
+Dialogue: 0,0:04:00.53,0:04:03.63,main,Grey,0000,0000,0000,,!أ-أتمنى لو أخبرتنا
+Dialogue: 0,0:04:03.63,0:04:06.21,main,Henry,0000,0000,0000,,.آسف... بشأن... ذلك
+Dialogue: 0,0:04:06.21,0:04:07.01,main,Asta,0000,0000,0000,,!وجدتها
+Dialogue: 0,0:04:07.01,0:04:10.25,main,Asta,0000,0000,0000,,لمَ لا نخبر هنري-سينباي بطلباتنا
+Dialogue: 0,0:04:10.25,0:04:13.77,main,Asta,0000,0000,0000,,وجعل المقر مريحًا أكثر مما كان عليه؟
+Dialogue: 0,0:04:14.43,0:04:16.29,main,Magna,0000,0000,0000,,!فكرة جيّدة يا أستا
+Dialogue: 0,0:04:16.29,0:04:17.86,main,Charmy / Grey,0000,0000,0000,,!موافقة
+Dialogue: 0,0:04:19.39,0:04:22.34,main,Vanessa,0000,0000,0000,,جعل الاستمتاع بالشراب بسهولة \N.أكبر من السابق هو أفضل شيء
+Dialogue: 0,0:04:22.34,0:04:24.03,main,Finral,0000,0000,0000,,.سنجعله مريحًا أكثر بشكل عام
+Dialogue: 0,0:04:24.03,0:04:27.12,main,Gordon,0000,0000,0000,,!هذه فرصتي للتقرب من الجميع
+Dialogue: 0,0:04:27.12,0:04:29.37,main,Yami,0000,0000,0000,,.حسنًا، جربوا ذلك
+Dialogue: 0,0:04:29.37,0:04:31.30,main,Both,0000,0000,0000,,!أجل
+Dialogue: 0,0:04:31.30,0:04:33.58,main,Asta,0000,0000,0000,,!نعتمد عليك يا هنري-سينباي
+Dialogue: 0,0:04:33.58,0:04:36.29,main,Henry,0000,0000,0000,,.دعوا... الأمر... لي
+Dialogue: 0,0:04:36.29,0:04:37.79,main,Asta,0000,0000,0000,,.تفضلا
+Dialogue: 0,0:04:37.79,0:04:40.51,main,Asta,0000,0000,0000,,.اكتبوا طلباتكم في هذه الاستمارات
+Dialogue: 0,0:04:40.51,0:04:42.97,main,Asta,0000,0000,0000,,.تفضلا. أنتما أيضًا يا نيرو وزورا
+Dialogue: 0,0:04:42.97,0:04:46.15,main,Zora,0000,0000,0000,,يا إلهي... أنت تحب حشر أنفك \N.فيما لا يعنيك أيّها القزم القذر
+Dialogue: 0,0:04:56.51,0:04:58.44,main,Noelle,0000,0000,0000,,...يبدو أنّه يواجه صعوبة ما
+Dialogue: 0,0:04:58.44,0:05:01.15,main,Finral,0000,0000,0000,,.هذا لأنّ الجميع كتبوا ما يريدون
+Dialogue: 0,0:05:01.15,0:05:05.65,main,Gauche,0000,0000,0000,,.طلبي هو أن ننقل المقر إلى جوار كنيسة ماري
+Dialogue: 0,0:05:06.18,0:05:08.97,italics,Marie,0000,0000,0000,,!أخي! يمكننا الآن رؤية بعضنا يوميًّا
+Dialogue: 0,0:05:09.66,0:05:12.78,main,Gauche,0000,0000,0000,,!ماري! سنصبح جيرانًا قريبًا
+Dialogue: 0,0:05:12.78,0:05:17.27,main,Gordon,0000,0000,0000,,أريد أن أكون في نفس الغرفة مع\N.الجميع 24 ساعة في اليوم لـ365 يومًا في السنة
+Dialogue: 0,0:05:17.27,0:05:22.11,main,Grey,0000,0000,0000,,أ-أنا محرجة لدرجة أني أريدك \N.أن تحرص على ألّا يراني أحد مجدّدًا
+Dialogue: 0,0:05:22.11,0:05:25.38,main,Grey,0000,0000,0000,,.أريد إسدال الكثير من الستائر وجعل المكان مظلمًا تمامًا
+Dialogue: 0,0:05:25.38,0:05:28.49,main,Charmy,0000,0000,0000,,!أسعى لعشر وجبات في اليوم
+Dialogue: 0,0:05:28.49,0:05:29.72,main,Magna,0000,0000,0000,,.أنت تفعلين ذلك على أيّة حال
+Dialogue: 0,0:05:29.72,0:05:32.66,main,Vanessa,0000,0000,0000,,!احرص على إضافة خيار لشرب ما نريد أيضًا
+Dialogue: 0,0:05:33.49,0:05:34.98,main,Noelle,0000,0000,0000,,.أنا محاطة بالحمقى
+Dialogue: 0,0:05:34.98,0:05:38.90,main,Luck,0000,0000,0000,,.كتبت أني أريد الغرفة المجاورة لك يا ماغنا
+Dialogue: 0,0:05:38.90,0:05:43.14,main,Luck,0000,0000,0000,,لأني أستطيع معرفة ما تفعله خلف \N.تلك الجدران برصد السحر خاصتي
+Dialogue: 0,0:05:43.14,0:05:44.74,main,Luck,0000,0000,0000,,!يمكنني العبث معك كما أريد
+Dialogue: 0,0:05:44.74,0:05:46.32,main,Magna,0000,0000,0000,,!سوف أقتلك
+Dialogue: 0,0:05:46.32,0:05:47.24,main,Luck,0000,0000,0000,,.لا يمكنك ذلك
+Dialogue: 0,0:05:47.24,0:05:49.93,main,Magna,0000,0000,0000,,!ماذا قلت؟! عد إلى هنا يا هذا
+Dialogue: 0,0:05:50.78,0:05:52.99,italics,Noelle,0000,0000,0000,,!غـ-غرفة مجاورة؟
+Dialogue: 0,0:05:52.99,0:05:56.94,main,Asta,0000,0000,0000,,أظنّ أنّه إن انتهى الأمر بنيرو في غرفة\N.أخرى، فلا يمكنها إيقاظي بعد الآن
+Dialogue: 0,0:05:56.94,0:05:59.79,main,Secre,0000,0000,0000,,.كنت أنقرك لأنّك كنت تشخر بصوت مرتفع
+Dialogue: 0,0:05:59.79,0:06:01.51,italics,Noelle,0000,0000,0000,,،بـ-بالتفكير في الأمر
+Dialogue: 0,0:06:01.51,0:06:04.50,italics,Noelle,0000,0000,0000,,لم يكن أستا ونيرو في غرفتين \N!مجاورتين، بل كانا في نفس الغرفة
+Dialogue: 0,0:06:04.50,0:06:07.74,italics,Noelle,0000,0000,0000,,!لـ-لكن نيرو كانت طائرًا حينها
+Dialogue: 0,0:06:07.74,0:06:11.72,italics,Noelle,0000,0000,0000,,!كانت تحطّ على عتبة النافذة فحسب! وكأن لي علاقة بالأمر
+Dialogue: 0,0:06:12.03,0:06:13.88,main,Henry,0000,0000,0000,,
+Dialogue: 0,0:06:13.88,0:06:16.26,main,Asta,0000,0000,0000,,.يبدو أنّ هنري-سينباي سيستغرق وقتًا
+Dialogue: 0,0:06:16.26,0:06:17.73,main,Noelle,0000,0000,0000,,.بـ-بالطبع
+Dialogue: 0,0:06:18.35,0:06:20.24,main,Yami,0000,0000,0000,,.إن كنت تشعر بالملل، فخذ
+Dialogue: 0,0:06:20.24,0:06:21.86,main,Asta,0000,0000,0000,,ما هذا؟
+Dialogue: 0,0:06:21.86,0:06:24.23,main,Asta,0000,0000,0000,,هل سنمضي الوقت بحثًا عن الحشرات؟
+Dialogue: 0,0:06:24.23,0:06:27.75,main,Yami,0000,0000,0000,,يبدو أنّكم أيّها الحمقى نسيتم \Nبشأن حيواناتي الأليفة الظريفة
+Dialogue: 0,0:06:27.75,0:06:31.31,main,Yami,0000,0000,0000,,.التي هربت عندما دُمّر مقرنا
+Dialogue: 0,0:06:32.05,0:06:34.24,main,Yami,0000,0000,0000,,.اذهبوا وأمسكوا بها قبل أن يسببوا المتاعب في أيّ مكان
+Dialogue: 0,0:06:35.02,0:06:36.83,main,Asta,0000,0000,0000,,!هذا صحيح
+Dialogue: 0,0:06:36.83,0:06:41.85,main,Asta,0000,0000,0000,,لكنّ ذلك سيكون سهلًا. فقد \N.اعتادت عليّ بعد أن اهتممت بها
+Dialogue: 0,0:06:41.85,0:06:44.04,main,Yami,0000,0000,0000,,.لا تستخف بتلك الوحوش
+Dialogue: 0,0:06:44.46,0:06:46.58,main,Yami,0000,0000,0000,,.هذه الغابة أشبه بفناء لها
+Dialogue: 0,0:06:47.05,0:06:50.59,main,Yami,0000,0000,0000,,.على الأرجح أنّها أصبحت وحشية مجدّدًا بعد بضعة أيّام
+Dialogue: 0,0:06:50.59,0:06:52.89,main,Yami,0000,0000,0000,,.سينتهي أمرك في لمح البصر إن تهاونت
+Dialogue: 0,0:06:53.27,0:06:56.44,main,Asta,0000,0000,0000,,مهلًا، مهلًا، مهلًا. ألست من \N،يستخف بالوضع في هذه الحالة
+Dialogue: 0,0:06:56.44,0:06:58.16,main,Asta,0000,0000,0000,,...بجعلك لي أذهب لإمساكها بهذ
+Dialogue: 0,0:06:58.16,0:07:00.64,main,Yami,0000,0000,0000,,.اخرس واذهب
+Dialogue: 0,0:07:00.64,0:07:02.21,main,Asta,0000,0000,0000,,!حاضر
+Dialogue: 0,0:07:02.21,0:07:03.81,main,Yami,0000,0000,0000,,.هناك ثلاثة وحوش سحرية
+Dialogue: 0,0:07:03.81,0:07:06.52,main,Yami,0000,0000,0000,,.إن كنتم تشعرون بالملل، فافترقوا وابحثوا عنها أنتم أيضًا
+Dialogue: 0,0:07:06.52,0:07:07.78,main,All,0000,0000,0000,,!حسنًا
+Dialogue: 0,0:07:07.78,0:07:09.11,main,Magna,0000,0000,0000,,!عُلم
+Dialogue: 0,0:07:09.11,0:07:12.31,main,Luck,0000,0000,0000,,!يبدو قتال الوحوش السحرية ممتعًا للغاية
+Dialogue: 0,0:07:12.31,0:07:15.87,main,Yami,0000,0000,0000,,.سأقتلك إن لمست شعرة من وحوشي الأليفة الظريفة
+Dialogue: 0,0:07:15.87,0:07:20.63,main,Gauche,0000,0000,0000,,!كفّ عن ذلك! أنا مشغول بالتحدث إلى صورة ماري
+Dialogue: 0,0:07:20.63,0:07:22.00,main,Gordon,0000,0000,0000,,.لنبحث عنها معًا يا أصدقاء
+Dialogue: 0,0:07:22.00,0:07:24.30,main,Grey,0000,0000,0000,,.يـ-يسرني العمل معكما
+Dialogue: 0,0:07:24.30,0:07:26.13,main,Gauche,0000,0000,0000,,!استمع إليّ يا هذا
+Dialogue: 0,0:07:26.46,0:07:30.88,main,Asta,0000,0000,0000,,.نويل، نيرو! لنذهب للبحث معًا بما أنّنا مستجدون
+Dialogue: 0,0:07:30.88,0:07:32.83,main,Both,0000,0000,0000,,.لا خيار أمامي
+Dialogue: 0,0:07:34.29,0:07:37.31,main,Asta,0000,0000,0000,,مهلًا، إلى أين ذهب زورا؟
+Dialogue: 0,0:07:37.31,0:07:40.68,main,Zora,0000,0000,0000,,.يا للإزعاج. لا وقت لي لذلك
+Dialogue: 0,0:07:41.43,0:07:46.53,main,Yami,0000,0000,0000,,حسنًا إذًا... سأعاقب الفتى المقنع\N.ذو الحواجب المتدلية على انسحابه في ما بعد
+Dialogue: 0,0:07:46.53,0:07:49.43,main,Yami,0000,0000,0000,,.لديّ عمل مهم أقوم به
+Dialogue: 0,0:07:49.43,0:07:51.78,main,Yami,0000,0000,0000,,.أعتمد عليكم أيّها الحمقى
+Dialogue: 0,0:07:58.90,0:08:01.07,main,Asta,0000,0000,0000,,!أيتها الوحوش السحرية
+Dialogue: 0,0:08:01.07,0:08:02.96,main,Asta,0000,0000,0000,,!أظهري نفسك
+Dialogue: 0,0:08:07.35,0:08:08.88,italics,Noelle,0000,0000,0000,,.هـ-هذا ظريف نوعًا ما
+Dialogue: 0,0:08:08.88,0:08:09.88,main,Asta,0000,0000,0000,,
+Dialogue: 0,0:08:10.71,0:08:14.72,main,Noelle,0000,0000,0000,,!مـ-من المستحيل أن نجدها بهذه الطريقة
+Dialogue: 0,0:08:15.23,0:08:17.59,main,Noelle,0000,0000,0000,,،دون أن ننسى أنّها أصبحة وحشية مجدّدًا كما قيل لنا
+Dialogue: 0,0:08:17.59,0:08:19.60,main,Noelle,0000,0000,0000,,.لذا ستنال منا إن تهاونّا
+Dialogue: 0,0:08:19.60,0:08:23.06,main,Asta,0000,0000,0000,,!لكني واثق أنّها ستتذكرني بما أني اهتممت بها
+Dialogue: 0,0:08:23.06,0:08:24.65,main,Asta,0000,0000,0000,,!سوف تتودد لي
+Dialogue: 0,0:08:24.97,0:08:29.05,main,Asta,0000,0000,0000,,،كانت نيرو كحيوان أليف لي عندما كانت طائرًا
+Dialogue: 0,0:08:29.05,0:08:30.14,main,Asta,0000,0000,0000,,أليس كذلك؟
+Dialogue: 0,0:08:30.14,0:08:32.23,main,Secre,0000,0000,0000,,.لا تكن وقحًا
+Dialogue: 0,0:08:32.23,0:08:35.46,main,Secre,0000,0000,0000,,.كنت أراقب كتاب تعاويذك فحسب
+Dialogue: 0,0:08:35.46,0:08:38.05,main,Secre,0000,0000,0000,,.أنت من كان حيواني الأليف
+Dialogue: 0,0:08:38.05,0:08:39.33,main,Asta,0000,0000,0000,,
+Dialogue: 0,0:08:39.33,0:08:42.11,italics,Noelle,0000,0000,0000,,...يقال أنّها كلما زاد الجدال، زاد الانسجام
+Dialogue: 0,0:08:42.11,0:08:44.45,italics,Noelle,0000,0000,0000,,!لـ-ليس وكأني أكترث لذلك
+Dialogue: 0,0:08:44.45,0:08:47.29,italics,Noelle,0000,0000,0000,,!أتيت معه لأنّي كنت مضطرة فقط
+Dialogue: 0,0:08:47.29,0:08:49.68,main,Asta,0000,0000,0000,,!أشعر بكي ما
+Dialogue: 0,0:08:49.68,0:08:52.71,main,Noelle,0000,0000,0000,,...لـ-ليس وكأني قلقة بشأنكما
+Dialogue: 0,0:08:52.71,0:08:54.47,main,Asta,0000,0000,0000,,!هناك
+Dialogue: 0,0:08:57.38,0:08:59.04,main,Asta,0000,0000,0000,,!طيور مضادة؟
+Dialogue: 0,0:08:59.04,0:09:00.49,main,Asta,0000,0000,0000,,!ما الذي تفعلينه هنا؟
+Dialogue: 0,0:09:00.49,0:09:04.15,main,Asta,0000,0000,0000,,
+Dialogue: 0,0:09:00.99,0:09:03.23,top,Secre,0000,0000,0000,,.يبدو أنّك أزعجتها بصراخك
+Dialogue: 0,0:09:04.15,0:09:05.84,main,Asta,0000,0000,0000,,
+Dialogue: 0,0:09:05.84,0:09:07.98,main,Secre,0000,0000,0000,,.سأحاول البحث عن الوحوش السحرية من السماء
+Dialogue: 0,0:09:07.98,0:09:10.11,main,Asta,0000,0000,0000,,!مـ-مـ-مهلًا
+Dialogue: 0,0:09:10.11,0:09:14.86,italics,Noelle,0000,0000,0000,,.ربما كنت أبالغ في التفكير\N.لست واثقة أنّهما منسجمان أبدًا
+Dialogue: 0,0:09:15.63,0:09:17.32,italics,Noelle,0000,0000,0000,,!نحن بمفردنا؟
+Dialogue: 0,0:09:17.97,0:09:20.22,main,Magna,0000,0000,0000,,.يا لها من غابة مريبة
+Dialogue: 0,0:09:20.79,0:09:22.33,main,Luck,0000,0000,0000,,هل أنت خائف يا ماغنا؟
+Dialogue: 0,0:09:22.33,0:09:26.49,main,Magna,0000,0000,0000,,!مـ-ماذا قلت؟! أغلق فمك وتعال بسرعة
+Dialogue: 0,0:09:28.17,0:09:30.67,main,Magna,0000,0000,0000,,...أنت، قلت لك أن تسرع
+Dialogue: 0,0:09:31.97,0:09:33.20,italics,Magna,0000,0000,0000,,،بمعرفتي له
+Dialogue: 0,0:09:33.20,0:09:36.68,italics,Magna,0000,0000,0000,,.فعلى الأرجح أنّه اختبأ في مكان ما كي يقفز ويفزعني
+Dialogue: 0,0:09:37.10,0:09:39.69,italics,Magna,0000,0000,0000,,!لن تخيفني! وسألقنك درسًا
+Dialogue: 0,0:09:44.71,0:09:48.77,main,Magna,0000,0000,0000,,!ها أنت! لن ينجح هذا الدفاع
+Dialogue: 0,0:09:48.77,0:09:49.69,main,Luck,0000,0000,0000,,
+Dialogue: 0,0:09:53.06,0:09:57.09,main,Luck,0000,0000,0000,,!أجل! لقد نجحت خطّة الإخافة والصعق خاصتي
+Dialogue: 0,0:09:57.09,0:09:59.05,main,Magna,0000,0000,0000,,!سوف أقتلك
+Dialogue: 0,0:09:59.05,0:10:01.44,main,Luck,0000,0000,0000,,هل تظن أنّك قادر على ذلك يا ماغنا؟
+Dialogue: 0,0:10:01.44,0:10:02.91,main,Magna,0000,0000,0000,,.هاجمني بكلّ ما لديك
+Dialogue: 0,0:10:02.91,0:10:05.70,main,Magna,0000,0000,0000,,!لن يوقفنا أحد هنا، لذا يمكننا إطلاق كل ما لدينا
+Dialogue: 0,0:10:06.90,0:10:11.71,main,Luck,0000,0000,0000,,هل أنت متأكد؟ أظنّنا في \N...مستويين مختلفين الآن يا ماغـ
+Dialogue: 0,0:10:11.71,0:10:13.62,main,Magna,0000,0000,0000,,.سأريك
+Dialogue: 0,0:10:13.62,0:10:18.72,main,Magna,0000,0000,0000,,!أصبحت قويًّا للغاية بعد قتالي لك عندما كنت إلفًا
+Dialogue: 0,0:10:19.77,0:10:22.22,main,Luck,0000,0000,0000,,!أنا أيضًا
+Dialogue: 0,0:10:22.22,0:10:24.30,main,Luck,0000,0000,0000,,...المانا تناديني
+Dialogue: 0,0:10:24.30,0:10:26.57,main,Luck,0000,0000,0000,,.مضى وقت طويل مذ واجهنا بعضنا
+Dialogue: 0,0:10:26.57,0:10:29.67,main,Luck,0000,0000,0000,,!قد أتحمس لدرجة المبالغة
+Dialogue: 0,0:10:29.67,0:10:31.05,main,Magna,0000,0000,0000,,!هات ما عندك
+Dialogue: 0,0:10:33.57,0:10:36.69,main,Grey,0000,0000,0000,,!مـ-ما هذا الصوت؟
+Dialogue: 0,0:10:36.69,0:10:40.57,main,Gordon,0000,0000,0000,,!يبدو أنّ ماغنا ولاك يوطّدان صداقتهما الحادة
+Dialogue: 0,0:10:40.57,0:10:42.07,main,Gauche,0000,0000,0000,,!من يكترث؟
+Dialogue: 0,0:10:42.53,0:10:45.35,main,Gauche,0000,0000,0000,,!أنتما! إلى متى ستختبئان خلفي؟
+Dialogue: 0,0:10:45.35,0:10:48.58,main,Grey,0000,0000,0000,,!أ-أنا محرجة للغاية! لا تنظرا إليّ رجاءً
+Dialogue: 0,0:10:48.58,0:10:50.46,main,Gauche,0000,0000,0000,,!لم يكن عليك المجيء إذًا
+Dialogue: 0,0:10:50.46,0:10:53.59,main,Grey,0000,0000,0000,,!لـ-لـ-لـ-لـ-لكني بحاجة لجدار أختبئ خلفه
+Dialogue: 0,0:10:53.59,0:10:55.77,main,Gauche,0000,0000,0000,,!من الذي تنعتينه بالجدار؟
+Dialogue: 0,0:10:55.77,0:10:58.45,main,Gordon,0000,0000,0000,,،لا نعلم متى قد تهاجم الوحوش السحرية
+Dialogue: 0,0:10:58.45,0:11:00.26,main,Gordon,0000,0000,0000,,.وهذه الغابة مريبة ومخيفة حقًّا
+Dialogue: 0,0:11:00.26,0:11:03.13,main,Grey,0000,0000,0000,,!وجهك مخيف أكثر من أيّ شيء آخر يا غوردون-سان
+Dialogue: 0,0:11:03.13,0:11:03.97,main,Gordon,0000,0000,0000,,
+Dialogue: 0,0:11:03.97,0:11:07.45,main,Grey,0000,0000,0000,,!كما أنّ الأمر محرج حقًّا، لذا لا تنظر رجاءً
+Dialogue: 0,0:11:10.54,0:11:12.06,main,Gauche,0000,0000,0000,,.ها هي
+Dialogue: 0,0:11:12.06,0:11:13.53,italics,Gauche,0000,0000,0000,,عليّ أن أسرع
+Dialogue: 0,0:11:13.53,0:11:16.91,italics,Gauche,0000,0000,0000,,!وأمسك بها كي أعود إلى ماري بشكل أسرع
+Dialogue: 0,0:11:16.91,0:11:18.28,main,Gauche,0000,0000,0000,,!هيا بنا
+Dialogue: 0,0:11:18.91,0:11:20.45,main,Gauche,0000,0000,0000,,
+Dialogue: 0,0:11:20.45,0:11:22.28,main,Gauche,0000,0000,0000,,!مـ-ما الذي تفعلانه؟
+Dialogue: 0,0:11:22.28,0:11:25.53,main,Grey,0000,0000,0000,,!لـ-لـ-لقد ظهرت من العدم فجأة
+Dialogue: 0,0:11:22.86,0:11:26.82,top,Gauche,0000,0000,0000,,!مهلًا! أنتما! أفلتاني
+Dialogue: 0,0:11:25.53,0:11:27.55,top,Grey,0000,0000,0000,,!زاد خوفي أكثر وأكثر الآن
+Dialogue: 0,0:11:26.82,0:11:29.37,top,Gauche,0000,0000,0000,,
+Dialogue: 0,0:11:26.91,0:11:30.08,main,Gordon,0000,0000,0000,,...قـ-قلبي ليس مستعدًّا بعد
+Dialogue: 0,0:11:30.08,0:11:34.08,main,Gauche,0000,0000,0000,,!كنت غبيًّا لاعتمادي عليكما
+Dialogue: 0,0:11:34.08,0:11:36.97,main,Gauche,0000,0000,0000,,!أفلتاني! كيف يُفترض بي أن أمسك بها؟
+Dialogue: 0,0:11:45.74,0:11:47.50,main,Charmy,0000,0000,0000,,!لذيذ جدًّا
+Dialogue: 0,0:11:47.50,0:11:51.02,main,Charmy,0000,0000,0000,,القدر هو ما يجعلني أريد أكل الكعك \N.بينما أبحث عن الوحوش السحرية
+Dialogue: 0,0:11:51.41,0:11:53.77,main,Vanessa,0000,0000,0000,,.ومن القدر أن أرغب بالشرب
+Dialogue: 0,0:11:54.35,0:11:58.26,main,Vanessa,0000,0000,0000,,.فينرال، اذهب واشتر لي قارورة أخرى بسحرك المكاني
+Dialogue: 0,0:11:58.26,0:12:01.54,main,Finral,0000,0000,0000,,المعذرة... ينبغي علينا البحث \N...عن الوحوش السحرية على الأرجح
+Dialogue: 0,0:12:01.54,0:12:05.53,main,Vanessa,0000,0000,0000,,.لا تكن متزمّتًا هكذا واشرب معي أيّها الفاضل
+Dialogue: 0,0:12:06.10,0:12:09.74,main,Charmy,0000,0000,0000,,!خذ كعكة. إنّها ساخنة مباشرة من الفرن ولذيذة
+Dialogue: 0,0:12:09.74,0:12:13.29,main,Finral,0000,0000,0000,,...أودّ ذلك حقًّا، لكن
+Dialogue: 0,0:12:13.29,0:12:16.42,italics,Finral,0000,0000,0000,,!سأُقتل إن علم يامي-سان
+Dialogue: 0,0:12:16.80,0:12:19.77,main,Finral,0000,0000,0000,,.لكني واثق أنّ الآخرين يمسكون بها بالفعل
+Dialogue: 0,0:12:19.77,0:12:22.09,main,Finral,0000,0000,0000,,...أظنّ بإمكاننا أن نسترخي لوقت أطول
+Dialogue: 0,0:12:22.99,0:12:24.77,main,Charmy,0000,0000,0000,,ماذا؟ أين فينرال؟
+Dialogue: 0,0:12:24.77,0:12:26.14,main,Vanessa,0000,0000,0000,,.لا بدّ أنّه ذهب لشراء المزيد من الشراب
+Dialogue: 0,0:12:26.14,0:12:27.05,main,Charmy,0000,0000,0000,,
+Dialogue: 0,0:12:27.05,0:12:29.51,main,Vanessa,0000,0000,0000,,...تشارمي، أعطيني
+Dialogue: 0,0:12:33.49,0:12:35.10,main,Vanessa,0000,0000,0000,,هل شربت الكثير؟
+Dialogue: 0,0:12:35.76,0:12:38.57,main,Vanessa,0000,0000,0000,,.لقد كبرت فجأة يا تشارمي
+Dialogue: 0,0:12:38.57,0:12:42.57,main,Vanessa,0000,0000,0000,,.كما أنك مليئة بالشعر. وانظري لتلك الأظافر
+Dialogue: 0,0:12:42.57,0:12:44.75,main,Vanessa,0000,0000,0000,,.عليك أن تعتني بها أكثر
+Dialogue: 0,0:12:44.75,0:12:47.04,main,Vanessa,0000,0000,0000,,على هذا الحال، لن يمنحك ذلك الفتى
+Dialogue: 0,0:12:47.04,0:12:48.91,main,Vanessa,0000,0000,0000,,.الوسيم من الفجر الذهبي أيّ فرصة
+Dialogue: 0,0:12:52.26,0:12:55.75,main,Luck,0000,0000,0000,,.كان ذلك ممتعًا. لست سيئًا يا ماغنا
+Dialogue: 0,0:12:55.75,0:12:56.92,main,Magna,0000,0000,0000,,.أنت أيضًا
+Dialogue: 0,0:12:57.39,0:13:00.42,main,Magna,0000,0000,0000,,.أظنني سأسامحك اليوم
+Dialogue: 0,0:13:00.42,0:13:04.66,main,Magna,0000,0000,0000,,.لن تتفوق علي يا لاك
+Dialogue: 0,0:13:04.66,0:13:08.43,main,Magna,0000,0000,0000,,إن أصبح أقوى بعشرة أضعاف. سأصبح\N.أقوى بعشرة أضعاف أنا أيضًا
+Dialogue: 0,0:13:08.43,0:13:11.43,main,Magna,0000,0000,0000,,.لذا ما زال بإمكاننا أن نصبح أقوى
+Dialogue: 0,0:13:12.06,0:13:13.68,main,Magna,0000,0000,0000,,ألا تظن ذلك؟
+Dialogue: 0,0:13:13.68,0:13:15.06,main,Luck,0000,0000,0000,,.آسف
+Dialogue: 0,0:13:15.06,0:13:18.31,main,Luck,0000,0000,0000,,لم أسمع ما قلته جيّدًا لأنّ \N.هذا الوحش السحري أمسك بي
+Dialogue: 0,0:13:18.31,0:13:21.14,main,Magna,0000,0000,0000,,.تبًّا، أنت ميؤوس منك
+Dialogue: 0,0:13:21.14,0:13:22.88,main,Magna,0000,0000,0000,,...سأنقذك في الحال
+Dialogue: 0,0:13:22.88,0:13:25.74,main,Magna,0000,0000,0000,,...لم يبق لي أيّ طاقة أو مانا
+Dialogue: 0,0:13:25.74,0:13:27.33,main,Luck,0000,0000,0000,,!هذا صحيح
+Dialogue: 0,0:13:27.33,0:13:30.09,main,Magna,0000,0000,0000,,!أنت، توقّف! هذا أنا
+Dialogue: 0,0:13:30.09,0:13:32.83,main,Magna,0000,0000,0000,,!كنت أعتني بكِ قبل أستا
+Dialogue: 0,0:13:32.83,0:13:34.75,main,Magna,0000,0000,0000,,!مذاقي سيّئ أصلًا
+Dialogue: 0,0:13:37.95,0:13:40.39,main,Asta,0000,0000,0000,,.لا يمكنني إيجادها في أي مكان
+Dialogue: 0,0:13:40.39,0:13:42.46,main,Noelle,0000,0000,0000,,.ونيرو لم تعد بعد
+Dialogue: 0,0:13:43.58,0:13:46.18,italics,Noelle,0000,0000,0000,,.أشعر بالتوتر عندما نكون بمفردنا
+Dialogue: 0,0:13:47.26,0:13:49.45,main,Asta,0000,0000,0000,,...هذه لماغنا-سينباي
+Dialogue: 0,0:13:49.91,0:13:51.82,main,Noelle,0000,0000,0000,,.لا تقل لي أنّ وحشًا سحريًّا نال منه
+Dialogue: 0,0:14:03.82,0:14:05.79,main,Asta,0000,0000,0000,,!ماغنا-سينباي! لاك
+Dialogue: 0,0:14:05.79,0:14:06.74,main,Noelle,0000,0000,0000,,!تماسكا
+Dialogue: 0,0:14:10.21,0:14:14.59,main,Secre,0000,0000,0000,,هذا سيئ. هُزم باقي الثيران السوداء \N.من قِبل الوحوش السحرية أيضًا
+Dialogue: 0,0:14:14.59,0:14:15.77,main,Asta,0000,0000,0000,,
+Dialogue: 0,0:14:15.77,0:14:19.12,main,Magna,0000,0000,0000,,...أستا... انس أمرنا
+Dialogue: 0,0:14:19.66,0:14:22.39,main,Luck,0000,0000,0000,,...القائد... في ورطة
+Dialogue: 0,0:14:25.61,0:14:27.51,main,Yami,0000,0000,0000,,.مشغول
+Dialogue: 0,0:14:28.91,0:14:31.85,main,Yami,0000,0000,0000,,!تبًّا، أنا هنا
+Dialogue: 0,0:14:31.85,0:14:35.66,main,Yami,0000,0000,0000,,هل هذا أنت أيّها الفتى؟! من \Nقال لك أن تعود بهذه السرعة؟
+Dialogue: 0,0:14:35.66,0:14:37.21,main,Yami,0000,0000,0000,,،لربما لديك شيء ما عالق
+Dialogue: 0,0:14:37.21,0:14:39.06,main,Yami,0000,0000,0000,,،لكني أواجه الزعيم الأخير، وإذا تهاونت
+Dialogue: 0,0:14:39.06,0:14:40.85,main,Yami,0000,0000,0000,,!سيعود للاختباء
+Dialogue: 0,0:14:42.17,0:14:44.34,main,Yami,0000,0000,0000,,!قلت أنّ المكان مشغول
+Dialogue: 0,0:14:49.11,0:14:53.87,main,Yami,0000,0000,0000,,أظنّ أنّ ثلاثتكم لن تأتوا إلى هنا \Nلأجل قضاء حاجتكم معًا، صحيح؟
+Dialogue: 0,0:14:56.70,0:15:00.25,italics,Asta,0000,0000,0000,,...أنا واثق أنّ القائد يامي سيكون بخير، لكن
+Dialogue: 0,0:15:00.25,0:15:03.10,italics,Asta,0000,0000,0000,,،كاد ماغنا-سينباي ولاك أن يؤكلا
+Dialogue: 0,0:15:03.10,0:15:06.93,italics,Asta,0000,0000,0000,,!لذا إن هاجم الثلاثة معًا، فقد تكون مشكلة
+Dialogue: 0,0:15:06.93,0:15:11.09,main,Asta,0000,0000,0000,,!أيها القائد يامي! أرجو أن تكون بخير
+Dialogue: 0,0:15:11.09,0:15:14.37,main,Yami,0000,0000,0000,,...مهلًا. توقفي عن لعقي
+Dialogue: 0,0:15:14.37,0:15:16.31,main,Yami,0000,0000,0000,,.رائحة لعابك نتنة
+Dialogue: 0,0:15:18.73,0:15:22.13,main,Asta,0000,0000,0000,,!مهلًا أيها القائد يامي! ما الذي يجري؟
+Dialogue: 0,0:15:22.13,0:15:24.56,main,Asta,0000,0000,0000,,!ظننت أنّ الوحوش السحرية تسعى خلفك
+Dialogue: 0,0:15:24.56,0:15:27.32,main,Yami,0000,0000,0000,,.كانت بالفعل نوعًا ما
+Dialogue: 0,0:15:27.32,0:15:31.57,main,Henry,0000,0000,0000,,...يبدو... أنّها... أرادت... بعض... الانتباه
+Dialogue: 0,0:15:31.57,0:15:33.57,main,Asta,0000,0000,0000,,أرادت الانتباه؟
+Dialogue: 0,0:15:33.57,0:15:36.46,main,Yami,0000,0000,0000,,،بالتفكير في الأمر، عندما التقيت بها أوّل مرة
+Dialogue: 0,0:15:36.46,0:15:38.83,main,Yami,0000,0000,0000,,.أرادت من يدللها أيضًا
+Dialogue: 0,0:15:39.73,0:15:43.33,main,Yami,0000,0000,0000,,.لا أذكر متى بالضبط، لكني كنت عائدًا إلى المقر
+Dialogue: 0,0:15:46.50,0:15:50.84,main,Yami,0000,0000,0000,,.التقيت بها بعد أن قُتل والداها
+Dialogue: 0,0:15:52.26,0:15:55.95,flashback,Yami,0000,0000,0000,,أظنّ أنّ أحد النبلاء كان مستمتعًا \N.بصيد الوحوش السحرية
+Dialogue: 0,0:15:58.01,0:16:02.41,flashback,Yami,0000,0000,0000,,.استسلمي. فوالداك لن يستيقظا مجدّدًا
+Dialogue: 0,0:16:02.41,0:16:07.05,flashback,Yami,0000,0000,0000,,.انفصلت عن والديّ أيضًا. ابتهجي. علينا أن نواصل العيش
+Dialogue: 0,0:16:07.75,0:16:10.10,flashback,Yami,0000,0000,0000,,.مهلًا. لا تسيئي الفهم
+Dialogue: 0,0:16:10.10,0:16:12.17,flashback,Yami,0000,0000,0000,,...لم أقل أنّي سأعتني بـ
+Dialogue: 0,0:16:14.33,0:16:16.71,flashback,Yami,0000,0000,0000,,.يبدو أنّ لا خيار أمامي
+Dialogue: 0,0:16:20.63,0:16:24.91,main,Asta,0000,0000,0000,,!يا لها من قصة مؤثرة! أنا سعيد لسماعها
+Dialogue: 0,0:16:24.91,0:16:27.25,main,Asta,0000,0000,0000,,!الوحوش السحرية الصغيرة ظريفة للغاية
+Dialogue: 0,0:16:27.25,0:16:29.42,main,Henry,0000,0000,0000,,...أجل
+Dialogue: 0,0:16:29.42,0:16:34.37,main,Yami,0000,0000,0000,,.لم يستغرق نموها إلى حجم والديها ستّة أشهر حتّى
+Dialogue: 0,0:16:34.37,0:16:37.68,main,Yami,0000,0000,0000,,.إطعامها يكلّف الكثير. حاولت التخلي عنها مرات عدّة
+Dialogue: 0,0:16:37.68,0:16:39.81,italics,Asta,0000,0000,0000,,!أتمنى لو لم أسمع هذا
+Dialogue: 0,0:16:39.81,0:16:41.68,italics,Henry,0000,0000,0000,,...أجل
+Dialogue: 0,0:16:41.68,0:16:47.39,main,Yami,0000,0000,0000,,،لهذا جعلتكم تمسكوها قبل أن تهاجم قرية قريبة ما
+Dialogue: 0,0:16:47.39,0:16:50.89,main,Yami,0000,0000,0000,,،لكن إن أرادت العودة للبرية
+Dialogue: 0,0:16:50.89,0:16:54.20,main,Yami,0000,0000,0000,,.فكنت لأطلقها في جبل ما
+Dialogue: 0,0:16:54.20,0:16:55.90,main,Charmy,0000,0000,0000,,
+Dialogue: 0,0:16:55.90,0:16:58.55,main,Magna,0000,0000,0000,,!هل أنت بخير يا يامي-سان
+Dialogue: 0,0:16:58.55,0:16:59.70,main,Asta,0000,0000,0000,,!ماغنا-سينباي
+Dialogue: 0,0:17:00.10,0:17:02.17,main,Asta,0000,0000,0000,,!جميعكم بخير؟
+Dialogue: 0,0:17:02.17,0:17:05.96,main,Magna,0000,0000,0000,,أجل! لكنّ رائحتنا نتنة بعد \N.أن لعقتنا تلك الوحوش السحرية
+Dialogue: 0,0:17:06.32,0:17:11.17,main,Luck,0000,0000,0000,,.ظننتنا سنؤكل، لكنّها أرادت انتباهنا فحسب
+Dialogue: 0,0:17:11.17,0:17:14.22,main,Noelle,0000,0000,0000,,.يبدو أنّ الجميع أُرهقوا من ذلك وانهاروا
+Dialogue: 0,0:17:14.22,0:17:16.76,main,Secre,0000,0000,0000,,.جميعكم مثيرون للمتاعب
+Dialogue: 0,0:17:16.76,0:17:19.10,main,Grey,0000,0000,0000,,،بما أنها كانت معنا بتلك الطريقة
+Dialogue: 0,0:17:19.10,0:17:23.48,main,Grey,0000,0000,0000,,.قلقنا على كيفية طلبها الانتباه من القائد يامي
+Dialogue: 0,0:17:23.48,0:17:25.71,main,Magna,0000,0000,0000,,!لكن كما هو متوقع من يامي-سان
+Dialogue: 0,0:17:25.71,0:17:29.15,main,Vanessa,0000,0000,0000,,.إنّه مالكها. اعتاد على الاهتمام بها
+Dialogue: 0,0:17:30.03,0:17:32.27,main,Magna,0000,0000,0000,,
+Dialogue: 0,0:17:32.27,0:17:34.58,main,Gordon,0000,0000,0000,,.عليّ صنع دمى لكِ أنت أيضًا
+Dialogue: 0,0:17:34.58,0:17:36.40,main,Gauche,0000,0000,0000,,.سأقتلك إن لعقت ماري
+Dialogue: 0,0:17:36.40,0:17:39.16,italics,Noelle,0000,0000,0000,,.إنّها ظريفة، لكنّ للعابها رائحة كريهة
+Dialogue: 0,0:17:39.51,0:17:41.15,main,Yami,0000,0000,0000,,،إن أردت المزيد من الانتباه
+Dialogue: 0,0:17:41.15,0:17:42.91,main,Yami,0000,0000,0000,,.فأسرعي واستحمي وافرشي أسنانك
+Dialogue: 0,0:17:42.91,0:17:48.42,main,Asta,0000,0000,0000,,.فهمت... أنتِ أيضًا تحبين القائد يامي والثيران السوداء
+Dialogue: 0,0:17:48.42,0:17:52.65,main,Asta,0000,0000,0000,,.حسنًا. يمكنك طلب الانتباه مني أنا المشرف عليك أيضًا
+Dialogue: 0,0:17:54.79,0:17:57.68,main,Yami,0000,0000,0000,,.يبدو أنّها لا تزال تعتبرك طعامًا أيّها الفتى
+Dialogue: 0,0:17:57.68,0:18:00.55,main,Asta,0000,0000,0000,,!لا، لا، لا! لا يمكن أن يكون ذلك صحيحًا
+Dialogue: 0,0:18:00.87,0:18:04.90,main,Asta,0000,0000,0000,,!لا بدّ أنّك جائعة. خذي! أحضرت بعض الطّعام لك
+Dialogue: 0,0:18:05.93,0:18:08.03,main,Noelle,0000,0000,0000,,.لا شكّ في الأمر
+Dialogue: 0,0:18:08.73,0:18:10.19,main,Zora,0000,0000,0000,,.لقد نمت جيّدًا
+Dialogue: 0,0:18:11.23,0:18:13.29,main,Asta,0000,0000,0000,,زورا! أين كنت؟
+Dialogue: 0,0:18:13.29,0:18:15.69,main,Zora,0000,0000,0000,,.لا تلق بالاً للتفاصيل أيّها القزم القذر
+Dialogue: 0,0:18:16.17,0:18:18.21,main,Zora,0000,0000,0000,,ألم يكتمل المقر بعد؟
+Dialogue: 0,0:18:18.21,0:18:19.70,main,Zora,0000,0000,0000,,.الشمس ستغرب
+Dialogue: 0,0:18:19.70,0:18:22.56,main,Henry,0000,0000,0000,,.لا... تقلق
+Dialogue: 0,0:18:22.56,0:18:25.95,main,Henry,0000,0000,0000,,.أنهيت... كلّ... شيء... للتو
+Dialogue: 0,0:18:26.75,0:18:32.21,italics,Henry,0000,0000,0000,,سحر إعادة التركيب: مقر الثيران \N!السوداء، أسلوب هارد روك الثور الأمريكي
+Dialogue: 0,0:18:32.25,0:18:36.21,sign_26668_324_Black_Bulls__Hid,Sign,0000,0000,0000,,{\blur3\fad(486,1)}مقر الثيران السوداء\Nأسلوب هارد روك الثور الأمريكي
+Dialogue: 0,0:18:37.89,0:18:42.86,main,Henry,0000,0000,0000,,...كان... هذا... طلب... ماغنا
+Dialogue: 0,0:18:42.86,0:18:43.95,main,Noelle,0000,0000,0000,,.يا للبذاءة
+Dialogue: 0,0:18:43.95,0:18:47.97,main,Magna,0000,0000,0000,,!ما الذي تقولينه؟! لا شيء أروع من هذا
+Dialogue: 0,0:18:48.81,0:18:50.73,main,Asta,0000,0000,0000,,!أريد رؤية الداخل بسرعة
+Dialogue: 0,0:18:50.73,0:18:53.25,main,Vanessa,0000,0000,0000,,!هذا ما أتحدث عنه
+Dialogue: 0,0:18:53.25,0:18:55.69,main,Vanessa,0000,0000,0000,,!يمكنني شرب ما أريد
+Dialogue: 0,0:18:56.54,0:18:59.74,main,Charmy,0000,0000,0000,,!أواصل الأكل، والطعام لا يزال يأتي
+Dialogue: 0,0:19:02.77,0:19:05.53,main,Asta,0000,0000,0000,,لم توجد حفرة هنا؟
+Dialogue: 0,0:19:05.53,0:19:09.50,main,Grey,0000,0000,0000,,.أ-أنا محرجة لدرجة أني أردت مكانًا أختبئ فيه
+Dialogue: 0,0:19:10.26,0:19:14.36,italics,Gauche,0000,0000,0000,,لم أتمكن من أن أصبح جارًا \N،لماري، لكن أيتها الملاك ماري
+Dialogue: 0,0:19:14.36,0:19:16.84,italics,Gauche,0000,0000,0000,,!أخبري أخاك عن طقس الغد
+Dialogue: 0,0:19:17.15,0:19:19.37,italics,Marie,0000,0000,0000,,.سيكون الغد مشمسًا مع القليل من الغيوم
+Dialogue: 0,0:19:19.37,0:19:24.35,italics,Marie,0000,0000,0000,,.أعلى درجة حرارة ستكون 24 درجة والأدنى 13 درجة
+Dialogue: 0,0:19:24.66,0:19:27.75,italics,Gauche,0000,0000,0000,,!دمية ماري الناطقة هذه هي الأفضل
+Dialogue: 0,0:19:27.75,0:19:29.72,italics,Gauche,0000,0000,0000,,!عمل جيّد
+Dialogue: 0,0:19:29.72,0:19:32.85,main,Finral,0000,0000,0000,,.أظنّ أنّ طلب خادمة ظريفة كان مبالغًا به
+Dialogue: 0,0:19:33.21,0:19:36.47,main,Henry,0000,0000,0000,,.سأنظف... من... أجلك
+Dialogue: 0,0:19:36.47,0:19:37.61,main,Finral,0000,0000,0000,,!ماذا؟
+Dialogue: 0,0:19:37.61,0:19:40.11,main,Henry,0000,0000,0000,,.آسف... لذلك
+Dialogue: 0,0:19:40.11,0:19:42.66,main,Finral,0000,0000,0000,,.أ-أقدر لك ذلك
+Dialogue: 0,0:19:42.66,0:19:45.87,main,Noelle,0000,0000,0000,,كيف وزّعت الغرف إذًا يا هنري؟
+Dialogue: 0,0:19:45.87,0:19:48.37,main,Henry,0000,0000,0000,,...بشأن... ذلك
+Dialogue: 0,0:19:48.70,0:19:52.87,main,Henry,0000,0000,0000,,.هذا... طلب... غوردون
+Dialogue: 0,0:19:53.21,0:19:55.25,main,Gordon,0000,0000,0000,,.فلنتآلف معًا في نفس الغرفة
+Dialogue: 0,0:19:55.25,0:19:57.01,main,Noelle,0000,0000,0000,,!ماذا؟
+Dialogue: 0,0:19:57.49,0:20:00.10,italics,Noelle,0000,0000,0000,,!لست جارة لأستا، بل معه في نفس الغرفة
+Dialogue: 0,0:20:00.10,0:20:02.87,italics,Noelle,0000,0000,0000,,!نتآلف؟ هذا تقرب أكثر من اللازم
+Dialogue: 0,0:20:02.87,0:20:04.01,italics,Noelle,0000,0000,0000,,!لا يمكن
+Dialogue: 0,0:20:04.45,0:20:08.77,italics,Asta,0000,0000,0000,,يذكرني هذا في الوقت الذي كنت \N.أنام فيه مع يونو وناش في الكنيسة
+Dialogue: 0,0:20:08.77,0:20:11.48,main,Asta,0000,0000,0000,,!سيكون كلّ شيء ممتعًا
+Dialogue: 0,0:20:11.48,0:20:13.09,main,Zora,0000,0000,0000,,.لا أوافق
+Dialogue: 0,0:20:13.09,0:20:14.02,main,Secre,0000,0000,0000,,.وأنا أيضًا
+Dialogue: 0,0:20:14.02,0:20:16.97,main,Noelle,0000,0000,0000,,.أ-أجل. أنا ملكية
+Dialogue: 0,0:20:16.97,0:20:19.53,main,Grey,0000,0000,0000,,!أنا محرجة جدًّا
+Dialogue: 0,0:20:19.53,0:20:22.93,main,Magna,0000,0000,0000,,،يغضبني أن أكون مع لاك في نفس الغرفة
+Dialogue: 0,0:20:22.93,0:20:24.70,main,Magna,0000,0000,0000,,لكني لا أمانع التحدث إلى يامي-سان
+Dialogue: 0,0:20:24.70,0:20:26.35,main,Magna,0000,0000,0000,,.في الصباح الباكر
+Dialogue: 0,0:20:26.35,0:20:28.25,main,Yami,0000,0000,0000,,.لن يحدث ذلك كلّ ليلة
+Dialogue: 0,0:20:28.25,0:20:29.83,main,Magna,0000,0000,0000,,!ماذا؟
+Dialogue: 0,0:20:30.23,0:20:36.08,main,Henry,0000,0000,0000,,.للقائد... غرفة... أخرى
+Dialogue: 0,0:20:36.08,0:20:38.59,main,All,0000,0000,0000,,!ماذا؟
+Dialogue: 0,0:20:38.91,0:20:40.22,main,yami,0000,0000,0000,,!ما هذا؟
+Dialogue: 0,0:20:40.22,0:20:44.59,main,Henry,0000,0000,0000,,.كان... هذا... طلب... الوحوش... السحرية
+Dialogue: 0,0:20:46.41,0:20:49.75,main,Yami,0000,0000,0000,,.حسنًا، لا بأس
+Dialogue: 0,0:20:49.75,0:20:51.43,main,Yami,0000,0000,0000,,!مستحيل أيّها الوغد
+Dialogue: 0,0:20:55.54,0:20:56.44,main,Yami,0000,0000,0000,,...إذًا
+Dialogue: 0,0:20:56.78,0:20:59.44,main,Yami,0000,0000,0000,,.مقرنا ليس مدينة ملاهي
+Dialogue: 0,0:20:59.44,0:21:04.06,main,Yami,0000,0000,0000,,.هذا المنزل هو مقرنا كالسابق
+Dialogue: 0,0:21:04.06,0:21:07.33,main,Vanessa,0000,0000,0000,,.إنه مريح أكثر هكذا بعد كلّ شيء
+Dialogue: 0,0:21:07.33,0:21:09.70,main,Magna,0000,0000,0000,,.أشعر أني عدت للمنزل أخيرًا
+Dialogue: 0,0:21:10.10,0:21:13.50,italics,Noelle,0000,0000,0000,,.لـ-لا أشعر بخيبة الأمل أبدًا
+Dialogue: 0,0:21:15.58,0:21:19.71,italics,Asta,0000,0000,0000,,...عندما أتيت إلى هنا أول مرة وانضممت للثيران السوداء
+Dialogue: 0,0:21:20.38,0:21:25.22,italics,Asta,0000,0000,0000,,.تقبلوني جميعًا في الحال مع أني لا أملك سحرًا
+Dialogue: 0,0:21:25.63,0:21:28.76,italics,Asta,0000,0000,0000,,.ومنذ ذلك الحين، كان كل يوم مليئًا بالقتالات
+Dialogue: 0,0:21:28.76,0:21:30.51,italics,Asta,0000,0000,0000,,،وواجهنا العديد من المآزق
+Dialogue: 0,0:21:30.97,0:21:34.48,italics,Asta,0000,0000,0000,,.لكني تمكنت من تخطيها بفضل مساعدة الجميع
+Dialogue: 0,0:21:34.48,0:21:39.98,main,Asta,0000,0000,0000,,أنا سعيد لأني انضممت للثيران \N!السوداء وتعرفت عليكم جميعًا
+Dialogue: 0,0:21:40.36,0:21:43.23,main,Magna,0000,0000,0000,,.ما هذا الكلام المفاجئ؟ أخجلتني
+Dialogue: 0,0:21:43.94,0:21:45.42,italics,Vanessa,0000,0000,0000,,.ونحن أيضًا
+Dialogue: 0,0:21:45.42,0:21:49.41,italics,Finral,0000,0000,0000,,.تمكنّا من التطور لأنّك لم تستسلم أبدًا يا أستا
+Dialogue: 0,0:21:49.41,0:21:53.66,italics,Noelle,0000,0000,0000,,.أنت متهور دائمًا، لكنّي أعترف أنّك عنيد كالعادة
+Dialogue: 0,0:21:53.66,0:21:56.81,main,Finral,0000,0000,0000,,.علينا أن نسرع ونثبت براءة أستا
+Dialogue: 0,0:21:56.81,0:21:57.82,main,All,0000,0000,0000,,.أجل
+Dialogue: 0,0:21:57.82,0:22:01.92,main,Yami,0000,0000,0000,,.علينا أن نتابع البحث عن الشياطين حاليًّا
+Dialogue: 0,0:22:04.01,0:22:05.07,main,Asta,0000,0000,0000,,!أجل
+Dialogue: 0,0:23:39.79,0:23:43.90,main,Asta,0000,0000,0000,,!عدنا لمقرنا، لذا سأجتهد أكثر
+Dialogue: 0,0:23:43.90,0:23:46.77,main,Asta,0000,0000,0000,,إلى أين أنت ذاهب أيها القائد يامي؟
+Dialogue: 0,0:23:46.77,0:23:50.95,main,Some,0000,0000,0000,,،في الحلقة القادمة من بلاك كلوفر\N.الصفحة 126، اعتراف الوردة الزرقاء
+Dialogue: 0,0:23:47.78,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}الصفحة 126\N\N{\fs18}اعتراف الوردة الزرقاء
+Dialogue: 0,0:23:50.95,0:23:53.91,main,Asta,0000,0000,0000,,ما الذي ستعترف به القائدة شارلوت؟
