@@ -170,7 +170,7 @@ if x == 1:
         if in_start <= end_of:
             vidnamear.append(str(in_start)+".ts")
             vidsub.append(str(in_start)+".ass")
-            vidnameoutar.append("[DisCinema.com]_One_Piece_S"+ s_season +"_EP"+str(in_start)+".mp4")
+            vidnameoutar.append("[DisCinema.com]_Boruto_S"+ s_season +"_EP"+str(in_start)+".mp4")
        
         clear()
         in_start+=1
@@ -184,7 +184,7 @@ else:
 def sendMessage(message):
     bot_token = "5953645919:AAEU9QcdoE799ImWqaT6m5ezDgEYNQqt0E0"
     chat_id = "916444149"
-    max_length = 4090  # Maximum number of UTF-8 characters per message
+    max_length = 4000  # Maximum number of UTF-8 characters per message
     
     chunks = [message[i:i+max_length] for i in range(0, len(message), max_length)]
     
