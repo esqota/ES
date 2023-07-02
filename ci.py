@@ -3,7 +3,7 @@ Season = int(input("Season: "))
 frome=int(input("From: "))
 toe=int(input("To: "))
 
-lnk = "https://www.crunchyroll.com/series/GRE5K3NQ6/91-days"
+lnk = "https://www.crunchyroll.com/series/GYGG99WDY/charlotte"
 lnk = lnk + "[S" + str(Season)+"E"
 output = "\"{episode_number}.ts\""
 for ep in range(frome,toe+1):
